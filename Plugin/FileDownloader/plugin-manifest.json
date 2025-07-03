@@ -1,0 +1,38 @@
+{
+  "manifestVersion": "1.0.0",
+  "name": "FileDownloader",
+  "displayName": "通用文件下载器",
+  "version": "1.0.0",
+  "description": "支持多种格式文件的下载插件，包括图片、视频、文档等。支持单文件和批量下载，具备断点续传、进度跟踪等高级功能。",
+  "author": "VCP Team",
+  "pluginType": "synchronous",
+  "entryPoint": {
+    "type": "nodejs",
+    "command": "node file-downloader.js"
+  },
+  "communication": {
+    "protocol": "stdio",
+    "timeout": 300000
+  },
+  "configSchema": {
+    "MAX_FILE_SIZE_MB": "integer",
+    "DOWNLOAD_TIMEOUT_SECONDS": "integer",
+    "MAX_CONCURRENT_DOWNLOADS": "integer",
+    "DEFAULT_IMAGE_DIR": "string",
+    "DEFAULT_VIDEO_DIR": "string",
+    "DEFAULT_DOCUMENT_DIR": "string",
+    "ALLOWED_DOMAINS": "string",
+    "ENABLE_FILE_VALIDATION": "boolean",
+    "ENABLE_RESUME_DOWNLOAD": "boolean",
+    "AUTO_CREATE_DIRECTORIES": "boolean"
+  },
+  "capabilities": {
+    "invocationCommands": [
+      {
+        "commandIdentifier": "FileDownloader",
+        "description": "[FileDownloader Tool] 通用文件下载工具，支持图片、视频、文档等多种格式文件的下载。支持单文件下载和批量下载。文件扩展名会自动从URL或HTTP响应头中推断，无需手动添加。使用以下格式调用，所有参数值需要用「始」和「末」包裹：\n\n**单文件下载：**\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」download「末」,\nurl:「始」要下载的文件URL地址「末」,\nfilename:「始」保存的文件名（无需扩展名，会自动添加）「末」,\ntarget_directory:「始」目标保存目录路径「末」\n<<<[END_TOOL_REQUEST]>>>\n\n**批量下载：**\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」batch_download「末」,\ndownloads:「始」JSON格式的下载列表，每项包含url和filename（无需扩展名）「末」,\ntarget_directory:「始」统一保存目录「末」\n<<<[END_TOOL_REQUEST]>>>\n\n**预设类型下载：**\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」download_by_type「末」,\nurl:「始」文件URL「末」,\nfile_type:「始」文件类型(image/video/document)「末」,\nfilename:「始」文件名（无需扩展名，会自动添加）「末」\n<<<[END_TOOL_REQUEST]>>>",
+                  "example": "```text\n// 单文件下载示例（扩展名自动添加）\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」download「末」,\nurl:「始」https://example.com/wallpaper.jpg「末」,\nfilename:「始」theme_dark「末」,\ntarget_directory:「始」D:/VCP/VCPChat/assets/wallpaper/「末」\n<<<[END_TOOL_REQUEST]>>>\n\n// 批量下载示例（扩展名自动添加）\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」batch_download「末」,\ndownloads:「始」[{\"url\":\"https://example.com/dark.jpg\",\"filename\":\"theme_dark\"},{\"url\":\"https://example.com/light.png\",\"filename\":\"theme_light\"}]「末」,\ntarget_directory:「始」D:/VCP/VCPChat/assets/wallpaper/「末」\n<<<[END_TOOL_REQUEST]>>>\n\n// 按类型下载示例（扩展名自动添加）\n<<<[TOOL_REQUEST]>>>\ntool_name:「始」FileDownloader「末」,\ncommand:「始」download_by_type「末」,\nurl:「始」http://127.0.0.1:6005/pw=lxx98120/images/fluxgen/image.jpeg「末」,\nfile_type:「始」image「末」,\nfilename:「始」downloaded_image「末」\n<<<[END_TOOL_REQUEST]>>>\n```"
+      }
+    ]
+  }
+}
