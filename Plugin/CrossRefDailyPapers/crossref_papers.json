@@ -10,6 +10,16 @@
     "journal": "Communications Medicine"
   },
   {
+    "doi": "10.1021/acs.est.5c00554",
+    "title": "The Potential Carcinogenicity of Long-Term Polymetallic Exposure on the Development of Primary Liver Cancer: Nested Case-Control Evidence from the Jinchang Cohort Study",
+    "authors": "Lizhen Zhang; Yana Bai; Yan Cheng; Chun Yin; Li Ma; Xiangna Gao; Yongbin Lu; Zhongge Wang; Qian Dou; Junjun Huang; Yufeng Wang; Xijiang Wu; Desheng Zhang; Zhiyuan Cheng",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "American Chemical Society (ACS)",
+    "type": "journal-article",
+    "journal": "Environmental Science &amp; Technology"
+  },
+  {
     "doi": "10.1007/978-3-031-97019-1_10",
     "title": "Efficient Detection of Small-Scale Microorganisms in Microscopic Photography",
     "authors": "Aleksei Samarin; Aleksandr Savelev; Aleksei Toropov; Alina Dzestelova; Alexandr Motyko; Aleksandra Dozortseva; Egor Kotenko; Elena Mikhailova; Valentin Malykh",
@@ -30,6 +40,16 @@
     "journal": "Clinical Cancer Bulletin"
   },
   {
+    "doi": "10.1186/s41043-025-00924-0",
+    "title": "Novel anthropometric and lipid indices as predictors of chronic kidney disease: insights from a decade-long cohort study",
+    "authors": "Ali Rezaee; Susan Darroudi; Aida Yavari; Vahid Mahdavizadeh; Motahhareh Karimoddini; Farzam Kamrani; Reza Salehi Manzari; Ali Shariatikia; Habibollah Esmaily; Majid Ghayour-Mobarhan; Mohsen Moohebati",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Journal of Health, Population and Nutrition"
+  },
+  {
     "doi": "10.1007/s12088-025-01501-z",
     "title": "A Review on Survival Strategies and Social Dynamics of Microbial Communities in Biofilm",
     "authors": "Tamanna Jafar; Sumita Rani Saha; Sameeha Alam; Otun Saha; Khandokar Fahmida Sultana",
@@ -38,6 +58,16 @@
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
     "journal": "Indian Journal of Microbiology"
+  },
+  {
+    "doi": "10.1142/s0219455426300041",
+    "title": "Damage Detection in Steel Girders Using a Hybrid Vibration-Based Method Under Presence of Noise",
+    "authors": "Mohammad Vahidi; Armin Aziminejad; Gholamreza Ghodrati Amiri",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "World Scientific Pub Co Pte Ltd",
+    "type": "journal-article",
+    "journal": "International Journal of Structural Stability and Dynamics"
   },
   {
     "doi": "10.31584/jhsmr.20251240",
@@ -50,14 +80,34 @@
     "journal": "Journal of Health Science and Medical Research"
   },
   {
-    "doi": "10.1142/s0219455426300041",
-    "title": "Damage Detection in Steel Girders Using a Hybrid Vibration-Based Method Under Presence of Noise",
-    "authors": "Mohammad Vahidi; Armin Aziminejad; Gholamreza Ghodrati Amiri",
+    "doi": "10.3847/1538-4357/ade13a",
+    "title": "Temporal and Structural Properties of Sunspot Small Short-living Group and Large Long-living Group Populations",
+    "authors": "Yury A. Nagovitsyn; Alexei A. Pevtsov; Aleksandra A. Osipova",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n               We investigate the properties of two types of solar active regions: the small short-living groups (SSGs) and the large long-living groups (LLGs). The combined distribution of areas of active regions is bimodal. When deconvolved, the distributions of each population show a clear presence of cyclic variations with LLG and SSG number varying in phase with each other. We see these in-phase variations and the lognormal distribution of SSG/LLG areas as indications that both types of groups originate from the same mechanism, the solar dynamo action. However, the data also suggest that near-surface convection may play a role. The maxima in the bimodal distribution of sunspot group areas (one for LLG and the other for SSG components) coincide with the typical sizes of the supergranules for the LLG population and mesogranules for the SSG population, which suggests that the large-scale convection patterns may affect the sunspot group formation.",
+    "publisher": "American Astronomical Society",
+    "type": "journal-article",
+    "journal": "The Astrophysical Journal"
+  },
+  {
+    "doi": "10.3390/foods14132360",
+    "title": "Physical Processing-Assisted pH Shifting for Food Protein Modification: A Comprehensive Review",
+    "authors": "Ruiqi Long; Yuanyuan Huang; Mokhtar Dabbour; Benjamin Kumah Mintah; Jiayin Pan; Minquan Wu; Shengqi Zhang; Zhou Qin; Ronghai He; Haile Ma",
+    "issuedDate": "2025-7-3",
+    "abstract": "The increasing demand for sustainable protein sources has intensified interest in improving the processing efficiency of traditional proteins and developing novel alternatives, particularly those derived from plants and algae. Among various processing technologies, pH shifting has attracted attention due to its simplicity, low cost, and capacity to effectively alter protein structure and functionality. However, employing pH shifting alone requires extremely acidic or alkaline conditions, which can lead to protein denaturation and the generation of undesirable by-products. To address these limitations, this review explores the integration of pH shifting with physical processing techniques such as ultrasound, high-pressure processing, pulsed electric fields, and thermal treatments. Moreover, this review highlights the effects of these combined treatments on protein conformational transitions and the resulting improvements in functional properties such as solubility, emulsification, foaming capacity, and thermal stability. Importantly, they reduce reliance on extreme chemical conditions, providing greater sustainability in industrial applications, particularly in food product development where milder processing conditions help preserve nutritional quality and functional properties. In that sense, this combined treatment approach provides a promising and eco-efficient protein modification strategy, and bridges technological innovation with sustainable resource utilization.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Foods"
+  },
+  {
+    "doi": "10.1007/s13258-025-01655-6",
+    "title": "Hierarchical structural component model for pathway analysis of multinomial phenotypes",
+    "authors": "Md. Kamruzzaman; Taewan Goo; Taesung Park",
     "issuedDate": "2025-7-3",
     "abstract": "N/A",
-    "publisher": "World Scientific Pub Co Pte Ltd",
+    "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
-    "journal": "International Journal of Structural Stability and Dynamics"
+    "journal": "Genes &amp; Genomics"
   },
   {
     "doi": "10.1108/jimse-05-2025-0007",
@@ -90,6 +140,36 @@
     "journal": "Zootaxa"
   },
   {
+    "doi": "10.3389/fchem.2025.1590498",
+    "title": "Epigallocatechin-3-gallate: a multi-target bioactive molecule derived from green tea against Oropouche virus—a computational approach to host–pathogen network modulation",
+    "authors": "Abdullah Al Noman; Pranab Dev Sharma; Umme Fathima Tuz Zohora; Farhana Akter Shifa; Emad M. Abdallah; Bader Y. Alhatlani",
+    "issuedDate": "2025-7-3",
+    "abstract": "The Oropouche virus (OROV), an emerging arbovirus transmitted by arthropods, has caused significant outbreaks in South and Central America, with over half a million reported cases. Despite its public health threat, no approved vaccines or antiviral treatments exist for Oropouche fever (OF). This study explores the potential of epigallocatechin-3-gallate (EGCG), a bioactive polyphenol from green tea, as an antiviral agent against OROV using computational approaches. Due to the lack of experimentally resolved OROV protein structures, we employed AlphaFold2 to predict 3D models of key viral proteins, including RNA-dependent RNA polymerase (RdRp), envelopment polyprotein, nucleoprotein, and glycoprotein Gc. Molecular docking revealed strong binding affinities between EGCG and these targets, with particularly high interactions for RNA polymerase (−7.1 kcal/mol) and envelopment polyprotein (−8.7 kcal/mol), suggesting the inhibition of viral replication and entry. Protein–protein interaction (PPI) network analysis identified critical human host genes (e.g., FCGR3A, IRF7, and IFNAR1) involved in immune responses, while Gene Ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses highlighted enriched antiviral and inflammatory pathways. ADMET profiling indicated challenges in EGCG’s bioavailability, including poor gastrointestinal absorption and blood–brain barrier permeability, but its low toxicity and natural origin support its potential as a lead compound. These findings suggest that EGCG may disrupt OROV infection through multi-target mechanisms, warranting further experimental validation. This study provides a foundation for developing EGCG-based therapeutics against OROV and underscores the utility of computational methods in antiviral drug discovery.",
+    "publisher": "Frontiers Media SA",
+    "type": "journal-article",
+    "journal": "Frontiers in Chemistry"
+  },
+  {
+    "doi": "10.1007/s10921-025-01225-6",
+    "title": "CNN-CHD: Combining Clustering Hierarchical Divisive and CNN for Enhanced Weld Defect Detection",
+    "authors": "Dalila Say; Mounira Tarhouni; Salah Zidi; Soliman Aljarboa",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Journal of Nondestructive Evaluation"
+  },
+  {
+    "doi": "10.1177/09544070251344776",
+    "title": "Study on characteristics of methanol evaporating spray based on empirical formulas and similarity theory",
+    "authors": "Pengbo Dong; Changhong Ma; Yifan Zhang; Yang Wang; Junchen Wu; Peng Wang; Yong Yang; Wuqiang Long",
+    "issuedDate": "2025-7-3",
+    "abstract": "With global carbon neutrality in mind, methanol has garnered significant attention from the internal combustion engine industry. High-pressure methanol direct-injection can realize diffusive combustion and high substitution rate, which can enhance the engine efficiency and decrease the carbon emission. Therefore, optical visualization experiments on methanol evaporation spray were conducted to clarify the behavior of high-pressure direct injection methanol spray, and the spray empirical formulas and similarity analysis were applied to expand the theory of methanol spray. Initially, spray characteristics of diesel and methanol were compared to assess the applicability of diesel spray theories to methanol. Based on this, empirical formulas for diesel spray were applied to methanol spray to identify those that can better describe methanol spray characteristics. Finally, spray similarity theories based on Chikahisa’s geometric similarity theory and Inagaki’s optimized Wakuri’s momentum theory were applied to methanol sprays to verify whether they exhibit similarities as diesel sprays. It shows that among the empirical formulas for spray tip penetration, Arai’s formula showed the best predictive performance with an average relative error of 3.19%. For spray angle formulas, Arai’s formula also demonstrated the highest predictive accuracy, though the relative error reached 10.78%. After correcting the coefficients of Arai’s formula, the average relative error between the corrected spray angle predictions and experimental values decreased to 3.4%. When using similarity theory to analyze methanol spray characteristics, the spray tip penetration generally followed similarity theory rules, while the spray angle did not yield satisfactory results after similarity scaling.",
+    "publisher": "SAGE Publications",
+    "type": "journal-article",
+    "journal": "Proceedings of the Institution of Mechanical Engineers, Part D: Journal of Automobile Engineering"
+  },
+  {
     "doi": "10.1007/s11104-025-07682-2",
     "title": "Modelling the long-term effects of wheat monoculture vs wheat in diversified crop sequences managed with varied crop residue amounts on water-use and grain yields in a Mediterranean dryland",
     "authors": "Raman Jeet Singh; P. R. Ward; Y. Oliver",
@@ -98,6 +178,26 @@
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
     "journal": "Plant and Soil"
+  },
+  {
+    "doi": "10.1021/acsami.5c07727",
+    "title": "Achieving Switchable CO/H<sub>2</sub> Detection with Selectivity-Tunable SnO<sub>2</sub>–Co<sub>3</sub>O<sub>4</sub> Sensors",
+    "authors": "Yuxiang Qin; Yizhe Zhang; Jing Lei; Xinyi Liu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "American Chemical Society (ACS)",
+    "type": "journal-article",
+    "journal": "ACS Applied Materials &amp; Interfaces"
+  },
+  {
+    "doi": "10.1007/s41109-025-00715-w",
+    "title": "Arlclustering: an R package for community detection in social networks based on user interaction and association rule learning",
+    "authors": "Mohamed El-Moussaoui; Mohamed Hanine; Ali Kartit; Tarik Agouti",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          ARLClustering is an open-source R package for community detection in social networks. Unlike traditional methods that rely on structural properties such as modularity, degree centrality, and clustering coefficient, ARLClustering leverages association rule mining (ARM) to identify meaningful interaction patterns based on users’ friendship activity. By analyzing frequent interaction rules, it uncovers communities that may be overlooked by purely structural approaches. The package offers a comprehensive set of functions tailored for social network analysis. It has been tested on real-world datasets, including the Karate Club, Dolphins, LesMiserables, NetScience, and Facebook networks. The results demonstrate its effectiveness in detecting communities and provide a comparative analysis against existing methods. ARLClustering is now available on the CRAN repository, with its source code accessible on GitHub. It serves as a valuable tool for researchers and practitioners, not only enhancing community detection techniques in social network analysis but also introducing a novel approach to uncover hidden communities through experimental studies on real-world social network datasets.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Applied Network Science"
   },
   {
     "doi": "10.1007/s11694-025-03460-x",
@@ -110,6 +210,26 @@
     "journal": "Journal of Food Measurement and Characterization"
   },
   {
+    "doi": "10.1186/s12870-025-06876-1",
+    "title": "A pioneering genotypic and phylogenetic characterisation of Cichorium crops through a genome-scale sequencing for future breeding innovations",
+    "authors": "Francesco Scariolo; Samela Draga; Damiano Riommi; Alessandra Tondello; Lydia Grace Griffin; Fabio Palumbo; Alessandro Vannozzi; Gianni Barcaccia",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          The genus Cichorium, which comprises economically important crops such as chicory and endive, exhibits significant genetic and phenotypic diversity. This study used genome-scale sequencing based on ddRAD technology to explore the genetic diversity and relationships, and to identify multiple discriminant loci within this genus. Moreover, microscopy analysis was conducted to identify morphological traits, such as pappus structure, to aid species-level identifications. Despite this, the genetic complexity within Cichorium remains challenging to resolve based solely on phenotypic characteristics. Our study confirms the efficacy of ddRADseq in generating high-quality genotyping-by-sequencing data, identifying 1,350 multi-allelic polymorphic loci across 368 genotypes and revealing significant genetic differentiation among species, varieties, and biotypes. Lower observed heterozygosity (Ho) compared to expected heterozygosity (Hs) suggests the presence of fixed genotypes within biotype groups, likely due to selection for specific morphological traits. Genetic distance and clustering analyses proved the distinctiveness of self-incompatible species (C. intybus and C. spinosum) from self-compatible species (C. endivia and C. pumilum). Notably, a strong genetic relationship was observed between C. intybus var. foliosum (Witloof) and var. sativum (Root chicory), supporting the hypothesis of a common ancestry. These findings may help refine the taxonomic classification of Cichorium, offering valuable insights for the conservation of genetic resources and their classification, the precise adoption in breeding decisions and genomic selection of suitable genotypes, as well as the genotypic identity determination of registered cultivars with the protection of breeder’s rights.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Plant Biology"
+  },
+  {
+    "doi": "10.3390/jcm14134703",
+    "title": "A Mean of Three-Year Follow-Up of Transvaginal Mesh Repair Using Calistar System Devices for the Treatment of Pelvic Organ Prolapse",
+    "authors": "Chao-Chi Huang; Kun-Ling Lin; I-Chieh Sung; Zixi Loo; Cheng-Yu Long",
+    "issuedDate": "2025-7-3",
+    "abstract": "Background/Objectives: Pelvic organ prolapse (POP) and urinary incontinence are prevalent conditions among women, significantly affecting their quality of life. Vaginal mesh surgeries, including the use of the Calistar mesh, have become an essential intervention aimed at alleviating symptoms associated with POP and urinary dysfunction. This study evaluates the clinical outcomes of Calistar vaginal mesh surgeries, focusing on pre- and post-operative changes in urinary parameters and prolapse severity. Methods: Data from 180 patients undergoing Calistar procedures were analyzed, revealing significant improvements in anatomical markers (Aa, Ba, C, Ap, and Bp) and urinary distress metrics (UDI-6 and IIQ-7) postoperatively. Results: The results demonstrate that Calistar mesh procedures are effective in reducing urinary frequency, incontinence, and incomplete bladder emptying. Conclusions: Calistar mesh procedures offer a safe and effective surgical option for managing POP and associated urinary dysfunction. The observed anatomical and functional improvements suggest that Calistar mesh significantly enhances patient outcomes and quality of life.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Journal of Clinical Medicine"
+  },
+  {
     "doi": "10.1007/s00428-025-04147-w",
     "title": "Single-center experience using reflex-targeted next-generation sequencing at diagnosis of squamous cell lung carcinoma in daily practice",
     "authors": "Radu Pirlog; Véronique Hofman; Samantha Goffinet; Christophe Bontoux; Virginie Lespinet; Guylène Rignol; Olivier Bordone; Caroline Lacoux; Virginie Tanga; Christelle Bonnetaud; Sandra Lassalle; Elodie Long-Mira; Davy Lim; Jean Philippe Berthet; Jonathan Benzaquen; Jacques Boutros; Charles Marquette; Simon Heeke; Marius Ilié; Paul Hofman",
@@ -118,6 +238,26 @@
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
     "journal": "Virchows Archiv"
+  },
+  {
+    "doi": "10.1186/s12889-025-23535-0",
+    "title": "Health coaching for people with long-term conditions and multimorbidity: a mixed methods prospective service evaluation of Structured Agenda-free Coaching Conversations (StACC) in UK primary care",
+    "authors": "Kate Henry; Austen El-Osta; Kathleen Leedham-Green",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          \n            Background\n            Enhanced patient engagement has been linked to health service sustainability. The Structured Agenda-free Coaching Conversation (StACC) model aims to support people with one or more long-term conditions through a strengths-based approach: emphasising patient ownership and engagement rather than specific health-related knowledge, skills or lifestyle-related goals. The intervention consists of five or six personalised one-to-one coaching sessions with a non-clinical coach. This evaluation explored the impacts of StACC on patient activation, self-management capabilities, patient experience and health service use.\n          \n          \n            Methods\n            A prospective service evaluation was conducted across seven UK general practices between 2015 and 2018. Patient-reported outcome measures were the Patient Activation Measure (PAM-13) or the Health Education Impact Questionnaire (heiQ). Patient stories and feedback were thematically summarised. Health service usage (encounters) was explored for a small subgroup 12 months before and after the intervention.\n          \n          \n            Results\n            A total of 1,031 participants were onboarded, and 630 (61.1%) completed the intervention. Of those, 575 (91.3%) provided paired evaluative data for either PAM-13 (n = 110) or heiQ (n = 465), 586 completed feedback questionnaires (93.0%), and 376 (59.7%) agreed to share their individual stories. Complete health service data were provided for a small subgroup (n = 58, 9.2% of completers). The pre-intervention mean PAM-13 score was 57.1 (SD = 13.6, 95% CI = 54.5–59.7). This increased to 70.8 (SD = 14.7, 95% CI = 68.1–73.6) post-intervention (p &lt; 0.0001). There were improvements across all eight domains of heiQ (effect sizes between 0.36 and 0.66). Health service data suggested a sustained impact. Participants who were previously disengaged reported taking action and gaining more control. Of the 586 feedback questionnaires, 567 (96.8%) were positive.\n          \n          \n            Conclusions\n            Personalised health coaching delivered through the StACC model increased patient activation (quantitative evidence) and improved self-management behaviours (qualitative evidence) for participants. This is supported by exploratory health service data. As this was an uncontrolled service evaluation, and the appointment data subgroup was small, follow-up efficacy and economic studies are warranted.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Public Health"
+  },
+  {
+    "doi": "10.1007/s11042-025-20992-y",
+    "title": "UcConvoNet: unifying customised features for deep CNN-based fake news detection",
+    "authors": "Mayank Kumar Jain; Dinesh Gopalani; Yogesh Kumar Meena",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Multimedia Tools and Applications"
   },
   {
     "doi": "10.1038/s41598-025-06674-7",
@@ -130,6 +270,56 @@
     "journal": "Scientific Reports"
   },
   {
+    "doi": "10.1038/s41598-025-08425-0",
+    "title": "Fluorescence Guided Raman Spectroscopy enables the training of robust support vector machines for the detection of tumour marker proteins",
+    "authors": "Johannes Reifenrath; Benjamin Gardner; Alexander Gigler; Friederike Liesche-Starnecker; Suzy Eldershaw; Nick Stone; Jürgen Schlegel",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          Raman spectroscopy provides comprehensive biochemical information on a sample’s composition, yet it is often used to analyze aggregated spectra rather than specific shifts. We introduce Fluorescence Guided Raman Spectroscopy (FGRS) as a methodology enabling the isolation of proteins’ spectral signatures and the training of classifiers that generalize across cell lines. We demonstrate the utility of this approach using connexin 43, a marker protein of glioblastoma tumour microtubes. By screening eGFP, sodium fluorescein, and mTagBFP2 for their compatibility with a Raman system operating at 532 nm, we selected mTagBFP2 as the most Raman-compatible fluorophore, whereas the other fluorophores emitting near 532 nm caused spectral interference. mTagBFP2 was cloned into a connexin 43 expression vector, allowing fluorescent tracking and Raman interrogation with subsequent peak identification and correlation to an I-TASSER protein prediction model. We then trained two support vector machines (SVMs) for the classification of cells based on their connexin 43 content and highlighted the impact of different spectral ranges (full spectrum vs. most significant Raman shifts) on specificity and sensitivity in glioblastoma target cell lines. Connexin 43 expression led to a loss of the peaks at 600, 1253, and 1401 cm⁻¹, consistent with an increased α-helical content as predicted by I-TASSER. SVMs achieved up to 79% accuracy on unseen glioblastoma lines, with full-spectrum models reaching 98.7% sensitivity. Thus, FGRS enables the spectral isolation of tumour marker proteins and the development of robust classifiers across cell lines. By focusing on key Raman shifts, this method holds the potential to improve diagnostic accuracy and sensitivity, offering a customizable tool for tumour detection.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Scientific Reports"
+  },
+  {
+    "doi": "10.1007/s10142-025-01656-4",
+    "title": "RNA G-quadruplexes: emerging regulators of gene expression and therapeutic targets",
+    "authors": "Zukela Ruzi; Wei Zha; Huang Yuan Yuan; Jiaorui Liu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Functional &amp; Integrative Genomics"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-6551234/v1",
+    "title": "The athlete microbiome project: Integrating deep learning to reveal microbial associations of physical fitness",
+    "authors": "Garry Lewis; Sebastian Reczek; Judy Malas; Karolis Ramanauskas; Joseph Walker; Marc Cook; Craig Horswill; Jarrad Hampton-Marcell",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n        Regular exercise improves human fitness and health through direct effects on muscle and metabolism and indirect effects involving the gut microbiome. To better understand the relationship between the gut microbiome and physical fitness, we conducted a secondary analysis of amplicon sequencing data and metadata from published human microbiota studies across three continents. Participants were categorized as athletes (n = 655) or non-athletes (n = 199) based on American Heart Association and American College of Cardiology guidelines. Using multivariate statistics, random forest, and a multilayer perceptron neural network, we identified significant differences in microbial community structure, diversity, and composition. Key taxa—including Faecalibacterium, Parabacteroides, and Prevotella—were associated with fat-free mass percentage and VO2 max, explaining up to 66% and 45% of the variance, respectively. The multilayer perceptron model distinguished athletes from non-athletes with 92.37% accuracy and an AUC of 0.97, highlighting distinct microbiome profiles between groups. These findings suggest microbial associations with athletic status and identify candidate taxa linked to physical fitness. Although causality cannot be inferred from this cross-sectional analysis, the results support further investigation into microbiome-mediated adaptations to exercise.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.7717/peerj-cs.2955",
+    "title": "Zero-shot cross-lingual stance detection <i>via</i> adversarial language adaptation",
+    "authors": "Bharathi A.; Arkaitz Zubiaga",
+    "issuedDate": "2025-7-3",
+    "abstract": "Stance detection has been widely studied as the task of determining if a social media post is positive, negative or neutral towards a specific issue, such as support towards vaccines. Research in stance detection has often been limited to a single language and, where more than one language has been studied, research has focused on few-shot settings, overlooking the challenges of developing a zero-shot cross-lingual stance detection model. This article makes the first such effort by introducing a novel approach to zero-shot cross-lingual stance detection, multilingual translation-augmented bidirectional encoder representations from Transformers (BERT) (MTAB), aiming to enhance the performance of a cross-lingual classifier in the absence of explicit training data for target languages. Our technique employs translation augmentation to improve zero-shot performance and pairs it with adversarial learning to further boost model efficacy. Through experiments on datasets labeled for stance towards vaccines in four languages—English, German, French, Italian, we demonstrate the effectiveness of our proposed approach, showcasing improved results in comparison to a strong baseline model as well as ablated versions of our model. Our experiments demonstrate the effectiveness of model components, not least the translation-augmented data as well as the adversarial learning component, to the improved performance of the model. We have made our source code accessible on GitHub: https://github.com/amcs18pd05/MTAB-cross-lingual-vaccine-stance-detection-2.",
+    "publisher": "PeerJ",
+    "type": "journal-article",
+    "journal": "PeerJ Computer Science"
+  },
+  {
+    "doi": "10.1038/s41597-025-05281-5",
+    "title": "A Public Dataset of Annotated Orcinus orca Acoustic Signals for Detection and Ecotype Classification",
+    "authors": "K. J. Palmer; Emma Cummings; Michael G. Dowd; Kait Frasier; Fabio Frazao; Alex Harris; April Houweling; Jasper Kanes; Oliver S. Kirsebom; Holger Klinck; Holly LeBlond; Lauren Laturnus; Craig Matkin; Olivia Murphy; Hannah Myers; Dan Olsen; Caitlin O’Neill; Bruno Padovese; James Pilkington; Lucy Quayle; Amalis Riera Vuibert; Krista Trounce; Svein Vagle; Scott Veirs; Val Veirs; Jen Wladichuk; Jason Wood; Tina Yack; Harald Yurk; Ruth Joy",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Scientific Data"
+  },
+  {
     "doi": "10.1108/ec-03-2025-0206",
     "title": "Multi-objective optimization design of tungsten alloy long-rod armor-piercing projectile penetrating ceramic-rubber composite armor",
     "authors": "Zhaoyang Zuo; Xiaohe Wang; Yujiang Wang; Bo Wang; Shicheng Wei; Shijie Dai",
@@ -140,6 +330,46 @@
     "journal": "Engineering Computations"
   },
   {
+    "doi": "10.21203/rs.3.rs-6974115/v1",
+    "title": "Phenomics, RNA sequencing and weighted gene co-expression network analysis reveals key regulatory networks and genes involved in the determination of seed hardness in Vicia sativa",
+    "authors": "Honglin Wang; Zizhou Wu; Yanchun Zuo; Xu Yan; Bangxing Zou; Yu Chen; Zhengcai Yuan; Zhouhe Du",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n        Background\n Wild-type Vicia sativa L. demonstrates superior agronomic traits, including high yield, elevated crude protein content, enhanced reproductive efficiency, and tolerance to nutrient-poor soils, rendering it a valuable genetic resource for crop improvement. However, its utilization in germplasm enhancement is severely constrained by seed hardness, whose underlying physiological and molecular regulatory mechanisms remain poorly characterized.\nResults\n Phenomics studies reveal that wild-type seeds exhibited significantly higher hardness indices and lignin content compared to cultivated varieties, whereas cultivated seeds contain significantly greater levels of soluble sugars, soluble proteins, and starch. During the same developmental period, cultivated seeds demonstrate significantly larger diameters than wild-type seeds. However, wild-type seeds show significantly thicker palisade layers and higher palisade-layer-to-seed-coat thickness ratios. Notably, the cuticle thickness of wild-type seeds is significantly greater. Scanning electron microscopy further indicated that cultivated varieties have significantly larger hilum width and length, whereas wild-type seeds display significantly deeper micropyle depth. Through WGCNA analysis, three key candidate genes (TRINITY_DN3402_c0_g1, TRINITY_DN13607_c0_g1, and TRINITY_DN6606_c0_g1) involved in regulating seed hardness were identified. The expression pattern analysis results indicated that, the expression levels of TRINITY_DN3402_c0_g1, TRINITY_DN13607_c0_g1, and TRINITY_DN6606_c0_g1 in the wild hard-seeded type vicia sativa (W12) were significantly higher than those in the cultivated type vicia sativa (W30).\nConclusions\n ​Our study elucidates key physical determinants and molecular mechanisms underlying seed hardness in Vicia sativa L., providing critical insights for crop improvement.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.3390/app15137460",
+    "title": "Pointer Meter Reading Recognition Based on YOLOv11-OBB Rotated Object Detection",
+    "authors": "Xing Xu; Liming Wang; Chunhua Deng; Bi He",
+    "issuedDate": "2025-7-3",
+    "abstract": "In the domain of intelligent inspection, the precise recognition of pointer meter readings is of paramount importance for monitoring equipment conditions. To address the challenges of insufficient robustness and diminished detection accuracy encountered in practical applications of existing methods for recognizing pointer meter readings based on object detection, we propose a novel approach that integrates YOLOv11-OBB rotating object detection with adaptive template matching techniques. Firstly, the YOLOv11 object detection algorithm is employed, incorporating a rotational bounding box (OBB) detection mechanism; This effectively enhances the feature extraction capabilities related to pointer rotation direction and dial center, thereby boosting detection robustness. Subsequently, an enhanced angle resolution algorithm is leveraged to develop a mapping model that establishes a relationship between pointer the deflection angle and the instrument range, facilitating precise reading calculation. Experimental findings demonstrate that the proposed method achieves a mean Average Precision (mAP) of 99.1% in a self-compiled pointer instrument dataset. The average relative error of readings is 0.41568%, with a maximum relative error of less than 1.1468%. Furthermore, the method exhibits robustness and reliability when handling low-quality meter images characterized by blur, darkness, overexposure, and tilt. The proposed approach provides a highly adaptable and reliable solution for pointer meter reading recognition in the intelligent industrial field, with significant practical value.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Applied Sciences"
+  },
+  {
+    "doi": "10.1111/tgis.70088",
+    "title": "Identification and Spatiotemporal Characteristics of Special and General Shrinking Cities in China From 2000 to 2020",
+    "authors": "Shengnan Zhang; Shihong Long; Enxiang Cai; Ling Li; Yingchao Li",
+    "issuedDate": "2025-7-3",
+    "abstract": "ABSTRACTShrinking cities have become a common phenomenon worldwide and are gradually attracting increasing attention, and the identification and characteristics of shrinking cities in urbanized China have long been an attractive topic. This paper focused on 342 prefecture‐level cities in China, defining special and general shrinking cities from a single dimension of population and multiple dimensions of population–economy–space, respectively, identifying various types of shrinking cities in China from 2000 to 2020 based on the shrinkage degree models, and comparing their spatial patterns and evolutionary characteristics. The results show that (1) the phenomenon of shrinking cities in China has become increasingly apparent, and the problem of general shrinking cities was more prominent than that of special shrinking cities. (2) Special shrinking cities are predominantly characterized by mild shrinkage, with their numbers increasing to nearly half of all Chinese cities, accompanied by a westward migration trend. (3) From 2000 to 2010, the number of general shrinking cities has exceeded half of the total number of cities in China, showing a trend of shifting from south to north. (4) The number of shrinking cities with comprehensive population, economy, and space shrinkage has significantly increased, manifested in the transformation of many shrinking cities dominated by population reduction or by economic and spatial decline in Northeast China into comprehensive shrinkage.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "Transactions in GIS"
+  },
+  {
+    "doi": "10.3390/agriculture15131434",
+    "title": "A Two-Stage Machine Learning Approach for Calving Detection in Rangeland Cattle",
+    "authors": "Yuxi Wang; Andrés Perea; Huiping Cao; Mehmet Bakir; Santiago Utsumi",
+    "issuedDate": "2025-7-3",
+    "abstract": "Monitoring parturient cattle during calving is crucial for reducing cow and calf mortality, enhancing reproductive and production performance, and minimizing labor costs. Traditional monitoring methods include direct animal inspection or the use of specialized sensors. These methods can be effective, but impractical in large-scale ranching operations due to time, cost, and logistical constraints. To address this challenge, a network of low-power and long-range IoT sensors combining the Global Navigation Satellite System (GNSS) and tri-axial accelerometers was deployed to monitor in real-time 15 parturient Brangus cows on a 700-hectare pasture at the Chihuahuan Desert Rangeland Research Center (CDRRC). A two-stage machine learning approach was tested. In the first stage, a fully connected autoencoder with time encoding was used for unsupervised detection of anomalous behavior. In the second stage, a Random Forest classifier was applied to distinguish calving events from other detected anomalies. A 5-fold cross-validation, using 12 cows for training and 3 cows for testing, was applied at each iteration. While 100% of the calving events were successfully detected by the autoencoder, the Random Forest model failed to classify the calving events of two cows and misidentified the onset of calving for a third cow by 46 h. The proposed framework demonstrates the value of combining unsupervised and supervised machine learning techniques for detecting calving events in rangeland cattle under extensive management conditions. The real-time application of the proposed AI-driven monitoring system has the potential to enhance animal welfare and productivity, improve operational efficiency, and reduce labor demands in large-scale ranching. Future advancements in multi-sensor platforms and model refinements could further boost detection accuracy, making this approach increasingly adaptable across diverse management systems, herd structures, and environmental conditions.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Agriculture"
+  },
+  {
     "doi": "10.1056/nejmc2506080",
     "title": "Lifesaving Diagnosis through Prenatal Genomic Sequencing",
     "authors": "Andrew P. Fennell; Tony Roscioli; Michael Buckley; Ari E. Horton; Sarah Long; Pramod Pharande; Luisa M. Clucas",
@@ -148,6 +378,36 @@
     "publisher": "Massachusetts Medical Society",
     "type": "journal-article",
     "journal": "New England Journal of Medicine"
+  },
+  {
+    "doi": "10.1099/jmm.0.002031",
+    "title": "Diagnostic value of nanopore-based metagenomic third-generation sequencing in the diagnosis of Pneumocystis jirovecii infection in patients with lung cancer",
+    "authors": "Yuyan Luo; Wei Cheng; Lei Ma; Tiantian Wang; Weirong Shi",
+    "issuedDate": "2025-7-3",
+    "abstract": "Introduction.\n                  Pneumocystis jirovecii pneumonia (PJP, formerly known as Pneumocystis carinii pneumonia), an opportunistic fungal infection caused by the fungus P. jirovecii, is a severe pulmonary infection that primarily affects immunocompromised patients, including those with lung cancer. Traditional diagnostic methods for PJP, such as Grocott–Gomori’s methenamine silver staining and real-time PCR, have limitations, including low positivity and high missed diagnosis rates.\n               \n                  Gap Statement. Despite the critical need for accurate and sensitive diagnostic tools for PJP, especially in immunocompromised populations, existing methods fall short in providing the necessary reliability and efficiency.\n               \n                  Aim. This study aims to evaluate the efficacy of nanopore-based metagenomic third-generation sequencing in diagnosing P. jirovecii infection in lung cancer patients, hypothesizing that this approach may offer superior sensitivity and specificity.\n               \n                  Methodology. A prospective observational study was conducted on 118 lung cancer patients with suspected pulmonary P. jirovecii infection at the Sixth Hospital of Nantong City, China, from January 2021 to December 2023. The identification of pathogens in bronchoalveolar lavage fluid samples was performed using both metagenomics and traditional tests.\n               \n                  Results. Metagenomics showed a significantly higher detection rate of P. jirovecii (33.0%) compared to methenamine silver staining (4.2%) and real-time PCR (30.5%). The sensitivity, specificity and accuracy of metagenomics detection were all 100%, which is markedly superior to traditional methods. Furthermore, metagenomics also identified mixed infections with other pathogens, such as Cytomegalovirus and Epstein–Barr virus.\n               \n                  Conclusion. Metagenomics technology demonstrates high sensitivity and specificity in diagnosing P. jirovecii infection, including mixed infections with other pathogens, in lung cancer patients. It provides a clear direction for clinical treatment and is a powerful tool for diagnosing PJP, contributing to improved diagnostic efficiency and accuracy, reducing misdiagnosis and missed diagnosis rates and improving clinical outcomes in these patients.",
+    "publisher": "Microbiology Society",
+    "type": "journal-article",
+    "journal": "Journal of Medical Microbiology"
+  },
+  {
+    "doi": "10.1158/2159-8290.29467453",
+    "title": "Table S4 from Requirement for Cyclin D1 Underlies Cell-Autonomous HIF2 Dependence in Kidney Cancer",
+    "authors": "Nitin H. Shirole; Devishi Kesar; Yenarae Lee; Amy Goodale; Sudeepa Syamala; Shweta Kukreja; Rong Li; Xintao Qiu; Wenyu Yu; Seth Goldman; Paloma Cejas; Henry W. Long; Karen Adelman; John G. Doench; William R. Sellers; William G. Kaelin",
+    "issuedDate": "2025-7-3",
+    "abstract": "&lt;p&gt;Table S4. Sequences of Oligonucleotides Used to Modify pLVX Vector to Express Cyclin D1 K112E (KE), Cyclin D2 K111E (KE) Mutant, and Empty Vector (EV)&lt;/p&gt;",
+    "publisher": "American Association for Cancer Research (AACR)",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-5551656/v1",
+    "title": "Inclusion of Diverse Populations in Genomics Research: A Survey of Investigators",
+    "authors": "Pilar Trelles; Tatiana Sabin; Michelle Ramos; Mimsie Robinson; Tess Levy; Ebony Madden; Carol Horowitz; Nita Vangeepuram",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n        Inclusion of diverse populations in genomic research is crucial for reducing health disparities, yet recruitment remains inadequate. This study surveyed 91 NIH-funded investigators on their practices and perspectives regarding the recruitment and retention of underrepresented populations (URP) in genomic research. Most respondents were White, male, full professors conducting studies in the U.S., while researchers recruiting primarily Hispanic/Latino or Black/African American participants were more likely to be younger, female, and belong to a URP themselves. Recruitment goals were more frequently met for White participants than for URPs. Despite understanding the challenges of URP recruitment, investigators found meeting targets \"very or extremely difficult.\" While no significant differences in recruitment practices were observed between those focusing on URPs and those recruiting primarily White participants, descriptive differences emerged. Most respondents agreed that the NIH should monitor URP recruitment but felt researchers shouldn’t be penalized for failing to meet targets. The findings suggest that while NIH-funded researchers are aware of strategies to improve URP recruitment, few routinely implement them, citing inadequate infrastructure and funding. Systemic changes at the individual, institutional, and policy levels are needed to address these barriers.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "posted-content",
+    "journal": "N/A"
   },
   {
     "doi": "10.3389/fmicb.2025.1611262",
@@ -170,6 +430,36 @@
     "journal": "Journal of Ambient Intelligence and Humanized Computing"
   },
   {
+    "doi": "10.3390/bios15070429",
+    "title": "A Microsphere-Based Sensor for Point-of-Care and Non-Invasive Acetone Detection",
+    "authors": "Oscar Osorio Perez; Ngan Anh Nguyen; Landon Denham; Asher Hendricks; Rodrigo E. Dominguez; Eun Ju Jeong; Marcio S. Carvalho; Mateus Lima; Jarrett Eshima; Nanxi Yu; Barbara Smith; Shaopeng Wang; Doina Kulick; Erica Forzani",
+    "issuedDate": "2025-7-3",
+    "abstract": "Ketones, which are key biomarkers of fat oxidation, are relevant for metabolic health maintenance and disease development, making continuous monitoring essential. In this study, we introduce a novel colorimetric sensor designed for potential continuous acetone detection in biological fluids. The sensor features a polydimethylsiloxane (PDMS) shell that encapsulates a sensitive and specific liquid-core acetone-sensing probe. The microsphere sensors were characterized by evaluating their size, PDMS shell thickness, colorimetric response, and sensitivity under realistic conditions, including 100% relative humidity (RH) and CO2 interference. The microsphere size and sensor sensitivity can be controlled by modifying the fabrication parameters. Critically, the sensor showed high selectivity for acetone detection, with negligible interference from CO2 concentrations up to 4%. In addition, the sensor displayed good reproducibility (CV &lt; 5%) and stability under realistic storage conditions (over two weeks at 4 °C). Finally, the accuracy of the microsphere sensor was validated against a gold standard gas chromatography-mass spectrometry (GC-MS) method using simulated and real breath samples from healthy individuals and type 1 diabetes patients. The correlation between the microsphere sensor and GC-MS produced a linear fit with a slope of 0.948 and an adjusted R-squared value of 0.954. Therefore, the liquid-core microsphere-based sensor is a promising platform for acetone body fluid analysis.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Biosensors"
+  },
+  {
+    "doi": "10.3324/haematol.2025.287794",
+    "title": "Serial next-generation sequencing for detecting germline predisposition in acute myeloid leukemia",
+    "authors": "Jae-Sook Ahn; Joo Heon Park; ChangSun Lee; Ik-Chan Song; Mi Yeon Kim; Sang Kyun Sohn; Ho-Young Yhim; Yong Park; Inho Kim; Ho-Jin Shin; Seong-Kyu Park; Sung-Hyun Kim; June-Won Cheong; Ho Sup Lee; Hyewon Lee; Sung Hwa Bae; Yunsuk Choi; Hong-Ghi Lee; Young Rok Do; Jae Joon Han; Min Kyoung Kim; Silvia Park; Hee-Je Kim; Hyeoung-Joon Kim",
+    "issuedDate": "2025-7-3",
+    "abstract": "Not available.",
+    "publisher": "Ferrata Storti Foundation (Haematologica)",
+    "type": "journal-article",
+    "journal": "Haematologica"
+  },
+  {
+    "doi": "10.1093/jxb/eraf298",
+    "title": "Tomato genomics and its relatives are breaking the genomics barriers",
+    "authors": "Laura Ellen Rose; Zahra Zangishei; Alisdair R Fernie; Björn Usadel",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n               Recent advances in high-quality genome sequencing have revolutionized research in the tomato clade (Solanum section Lycopersicon), enabling the generation of long-read and even chromosome-scale assemblies for cultivated tomato and its wild relatives. These data have shed light on tomato domestication and population genetics, and have facilitated breeding using exotic germplasm. This review summarizes progress in tomato genomics, focusing on the diversity of section Lycopersicon and its function as a reservoir of stress tolerance genes, including drought tolerance from Solanum pennellii, and pathogen resistance from S. habrochaites and S. chilense. We catalog important genetic resources, including introgression lines and multi-parent advanced generation inter-cross (MAGIC) populations, which have allowed the dissection of important traits via the mapping of quantitative trait loci, including those involved in primary and secondary metabolism. We also explore the metabolic diversity of wild and domesticated tomato species and discuss how this has led to gene identification. Finally, we show that tomato genomics will continue to accelerate, given the increasing availability and accessibility of genomics technology, exotic germplasm, and mapping populations, which can be leveraged using advanced genome-editing approaches.",
+    "publisher": "Oxford University Press (OUP)",
+    "type": "journal-article",
+    "journal": "Journal of Experimental Botany"
+  },
+  {
     "doi": "10.1007/s10661-025-14298-7",
     "title": "Unravelling sources of fecal pollution in oligotrophic mountain waters: Integrating Escherichia coli enumeration, microbial source tracking, and eDNA analysis",
     "authors": "Sharon Maes; Martin Andersson-Li; Jessica Sjöstedt; Jon Hildahl; Daniel Yu; Norman Neumann; Monica Odlare; Anders Jonsson",
@@ -178,6 +468,66 @@
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
     "journal": "Environmental Monitoring and Assessment"
+  },
+  {
+    "doi": "10.1002/ehf2.15343",
+    "title": "Home‐operated ultrasound exam for detection of worsening heart failure (HOUSE‐HF)",
+    "authors": "Stuart B. Prenner; Kevin Dougherty; Frances S. Shofer; Lee R. Goldberg; Nova Panebianco",
+    "issuedDate": "2025-7-3",
+    "abstract": "AbstractAimsAcute decompensated heart failure (ADHF) is associated with a high degree of morbidity and mortality. Dynamic lung ultrasound artefact called B‐lines can be obtained at the bedside and directly correlate with pulmonary vascular congestion. Obtaining patient‐performed lung ultrasound images in the outpatient setting is novel. We assessed the feasibility of patients recently hospitalized for ADHF to self‐perform a limited lung ultrasound using a handheld ultrasound probe and upload the images to a secure cloud for physician interpretation.MethodsThis was a prospective observational convenience sample. Patients were enrolled from an urban academic tertiary care centre and were eligible if they had chronic left‐sided heart failure regardless of ejection fraction. While hospitalized, patients were educated for 20 min on a six‐lung‐zone image protocol, how to use the cloud archival system and given a handheld ultrasound transducer and smart tablet. A brief instructional video was also available to patients on the smart tablet throughout the study (https://www.dropbox.com/scl/fi/bii7ovdcv21ps7yxyqsy1/120‐21080‐00‐Rev‐01‐BNI‐041‐UPENN‐IN‐APP‐TRAINING‐VIDEO.mp4?rlkey=f5vu55xbnugdoz6jzyb8lv872&amp;st=56es4qif&amp;dl=0). Patients were asked to upload images three times weekly, for 3 weeks, for a total of nine studies. All images were reviewed and a B‐line score was calculated for each lung zone, and a total B‐line score for the entire exam. Additionally, patients completed a survey to assess the patient‐centred experience.ResultsA total of 15 patients were enrolled, all of whom completed seven or more studies (10 patients completed all 9). Median patient age was 63 years (range: 28 –86 years), the majority were male (73%), white (60%) and average body mass index was 33 kg/m2. Of them,33.3% had an ejection fraction &gt;50%, average hospital length of stay was 6.3 days. Of the 792 potential images, 788 were obtained (99.5%). Of these, a total of 637 scans were interpretable (80.8%). The right upper apical lung zone (zone 1R) was most often adequate for interpretation (96.2%), where left lower mid‐axillary (zone 3L) was least often interpretable (69.5%). The average number of B‐lines per six‐image scan was three (with a range of 0–13). Patient survey data identified zone 3L as the most challenging to obtain with overall high satisfaction with the study educational materials.ConclusionsThis pilot study demonstrates that patients with hospitalized ADHF can be taught to use a handheld portable ultrasound device and obtain and upload high quality lung ultrasound images. Compliance with the study protocol and ability to obtain some images were excellent. Further studies are needed to determine if patient‐performed lung ultrasound can help detect and manage acute worsening HF in this patient population.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "ESC Heart Failure"
+  },
+  {
+    "doi": "10.1097/sla.0000000000006826",
+    "title": "Imaging Based Surgical Site Infection Detection Using Artificial Intelligence",
+    "authors": "Hala Muaddi; Ashok Choudhary; Frank Lee; Stephanie Anderson; Elizabeth Habermann; David Etzioni; Sarah McLaughlin; Michael Kendrick; Hojjat Salehinejad; Cornelius Thiels",
+    "issuedDate": "2025-7-3",
+    "abstract": "Objective:\n            To develop an AI-based pipeline to assess and triage patient-submitted postoperative wound images.\n          \n          \n            Background:\n            The rise of outpatient surgeries, remote monitoring, and patient-submitted wound images via online portals has contributed to a growing administrative workload on clinicians. Early identification of surgical site infection (SSI) is essential for reducing postoperative morbidity.\n          \n          \n            Methods:\n            Patients ≥18 years old who underwent surgery at nine affiliated Mayo Clinic hospitals (2019-2022) and were captured by National Surgical Quality Improvement Program (NSQIP) were included. Eligibility required submission of one image via the patient portal within 30-days post-surgery. Images were independently screened in duplicate to determine the presence of an incision. SSI outcomes were obtained from NSQIP. The developed model consisted of two stages: incision detection and SSI detection in images with incisions. Four pretrained architectures were evaluated using 10-fold cross-validation, with upsampling and data augmentation to mitigate class imbalance. An end-to-end pipeline, image quality assessment and sensitivity analysis stratified by race were also performed.\n          \n          \n            Results:\n            Among 6,060 patients, the median age was 54 years (IQR 40-65), 61.4% were (n=3,805) female, and 92.5% (n=5,731) identified as white. SSIs were confirmed in 6.2% (n=386) images. Vision Transformer outperformed all others, achieving an incision detection accuracy of 0.94 (AUC 0.98) and an SSI detection accuracy of 0.73 (AUC 0.81). In addition, it demonstrated strong performance in assessing image quality. Sensitivity analysis revealed comparable performance across racial subgroups.\n          \n          \n            Conclusion:\n            This AI pipeline demonstrates promising performance in automating wound images assessment and SSI detection, reducing clinical workload and improving postoperative care.",
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "type": "journal-article",
+    "journal": "Annals of Surgery"
+  },
+  {
+    "doi": "10.1186/s12864-025-11837-x",
+    "title": "Correction: Dissection of genetic basis underlying heat stress response of Apis cerana",
+    "authors": "Ao-Mei Li; Chun-Xiu Pang; Xiao-Lin Cai; Fu-Chang Zhuo; Bo Hu; Xue-Hua Huang; Jia-Xing Huang; Yu-Ming Lu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Genomics"
+  },
+  {
+    "doi": "10.1002/jum.16763",
+    "title": "Multi‐Institutional Survey of 4‐Year Ultrasound Quality Control Findings",
+    "authors": "Zaiyang Long; Megan Russ; Sandra Larson; Mark R. Holland; Zheng‐Feng Lu; Cameron Kofler; Wei Zhou; Jian‐Feng Chen; Zhimin Li; James Zagzebski; Jennifer Stickel; Andreea Dohatcu",
+    "issuedDate": "2025-7-3",
+    "abstract": "ObjectivesPeriodic quality control (QC) testing of ultrasound (US) imaging systems is essential to ensure and maintain image quality and safety. The study aims to analyze QC findings from medical physics annual surveys of modern clinical US systems in a multi‐institutional survey.MethodsQC results from annual surveys between 2018 and 2021 were retrospectively collected from 12 medical physicists from 11 institutions or consulting companies (hereafter referred to as sites). QC tests were classified as scanner‐ and transducer‐related tests, where scanner‐related tests also included evaluation of diagnostic workstation display monitors and routine QC programs if applicable. Test methodology and pass/fail criteria were established by each site. QC findings were defined as results requiring follow‐up action by service engineers, vendors, or other personnel. The percentage of annual findings was calculated for each site and averaged across the years of data contributed. Furthermore, findings across all sites were aggregated for an overall analysis.ResultsQC data from a total of 1069 scanner tests and 4542 transducer tests were collected. The average annual percentage of scanner‐related findings varied from 0 to 40.8% among all sites (first quartile 8.7%, median 18.2%, and third quartile 34.1%), while that of transducer‐related findings ranged between 0.5% and 19.9% (first quartile 3.9%, median 7.2%, and third quartile 14.5%). For scanner‐related tests, the top 3 categories of findings were associated with physical and mechanical integrity (171 findings, 74.7%), quantitative testing of the scanner display monitor (40 findings, 17.5%), and scanner port creating artifacts (10 findings, 4.4%). The top 3 findings for transducers related to uniformity and artifact (227 findings, 79.9%), physical and mechanical integrity (44 findings, 15.5%), and sensitivity in fundamental mode (9 findings, 3.2%).ConclusionsMedical physics annual surveys revealed considerable actionable findings of modern US systems, which inform the status of current US QC practices in the United States and may guide future standardization and recommendation of QC tests.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "Journal of Ultrasound in Medicine"
+  },
+  {
+    "doi": "10.1177/09544070251343163",
+    "title": "Design of a distributed hybrid model predictive controller based on long short-term memory networks model for hub-motor electric vehicle with air suspension",
+    "authors": "Ying Zhou; Zhongxing Li; Chengchong Wang; Jian Wang",
+    "issuedDate": "2025-7-3",
+    "abstract": "The vigorous development of hub-motor electric vehicles (HMEVs) is driven by their potential to significantly enhance energy efficiency, handling performance and space utilization, as well as reduce mechanical losses and maintenance costs. The unbalanced electromagnetic force (UEMF) is generated by the combined effect of the hub-motor and the road coupling excitation, which is a major challenge to reduce performance deterioration in HMEVs. A Distributed Hybrid Model Predictive Control (DHMPC) strategy is introduced in this paper for HMEVs equipped with air suspension (AS) to improve vehicle ride comfort and handling stability. UEMF is calculated based on analytic method and optimized by LSTM. An 11-DOF full-vehicle is established by distributive method and verified by vehicle test. Based on LSTM online training and dynamic modelling, a DHMPC controller integrates nonlinear damping force constraints with logical variables. An MLD model is used in the approach to uniformly represent the dynamic model and system constraints. The numerical simulation results indicate that DHMPC significantly improved various evaluation indicators compared to DMPC controller. The Root Mean Square values of vehicle body vertical acceleration, pitch angular acceleration and roll angular acceleration improve by 3.9%, 1.0% and 1.3%, respectively. The eccentricity of the left-rear hub-motor improve by 0.8%.",
+    "publisher": "SAGE Publications",
+    "type": "journal-article",
+    "journal": "Proceedings of the Institution of Mechanical Engineers, Part D: Journal of Automobile Engineering"
+  },
+  {
+    "doi": "10.1007/s10015-025-01038-w",
+    "title": "Detection of anomalous individuals in swarm using explainable AI",
+    "authors": "Hiroshi Sato; Yohei Fukuyama; Masao Kubo; Haruta Isobe; Tomoyashu Deguchi",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Artificial Life and Robotics"
   },
   {
     "doi": "10.21203/rs.3.rs-6832587/v1",
@@ -190,6 +540,106 @@
     "journal": "N/A"
   },
   {
+    "doi": "10.1186/s12864-025-11826-0",
+    "title": "Genome-wide identification and expression pattern of the phytochrome-interacting factors (PIFs) family in three alfalfa varieties",
+    "authors": "Ting Cui; Yong Wang; Kuiju Niu; Huiling Ma",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Genomics"
+  },
+  {
+    "doi": "10.3389/fimmu.2025.1648472",
+    "title": "Correction: Comparative evaluation of three anti-dsDNA antibody detection methods in systemic lupus erythematosus: insights from a large monocentric cohort",
+    "authors": "Ruijing Lu; Rui Yu; Rong Huang; Chiyuan Xue; Ning Song; Jiuliang Zhao; Xiaofeng Zeng; Chaojun Hu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Frontiers Media SA",
+    "type": "journal-article",
+    "journal": "Frontiers in Immunology"
+  },
+  {
+    "doi": "10.1007/s10142-025-01657-3",
+    "title": "Increased CDKN2A expression correlates with resistance to platinum-based therapy and decreased infiltration of B lymphocytes in colon adenocarcinoma",
+    "authors": "Ruru Gu; Shuai Li; Bin Yu; Jiaoyang Gu; Bingxin Guan; Honglei Wu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Functional &amp; Integrative Genomics"
+  },
+  {
+    "doi": "10.3390/diagnostics15131698",
+    "title": "Breaking Diagnostic Barriers: Vision Transformers Redefine Monkeypox Detection",
+    "authors": "Gelan Ayana; Beshatu Debela Wako; So-yun Park; Jude Kong; Sahng Min Han; Soon-Do Yoon; Se-woon Choe",
+    "issuedDate": "2025-7-3",
+    "abstract": "Background/Objective: The global spread of Monkeypox (Mpox) has highlighted the urgent need for rapid, accurate diagnostic tools. Traditional methods like polymerase chain reaction (PCR) are resource-intensive, while skin image-based detection offers a promising alternative. This study evaluates the effectiveness of vision transformers (ViTs) for automated Mpox detection. Methods: By fine-tuning a pre-trained ViT model on an Mpox lesion image dataset, a robust ViT-based transfer learning (TL) model was created. Performance was assessed relative to convolutional neural network (CNN)-based TL models and ViT models trained from scratch across key metrics: accuracy, precision, recall, F1-score, and area under the receiver operating characteristic curve (AUC). Furthermore, a transferability measure was utilized to assess the effectiveness of feature transfer to Mpox images. Results: The results show that the ViT model outperformed a CNN, achieving an AUC of 0.948 and an accuracy of 0.942 with a p-value of less than 0.05 across all metrics, highlighting its potential for accurate and scalable Mpox detection. Moreover, the ViT models yielded a better hypothesis margin-based transferability measure, highlighting its effectiveness in transferring useful learning weights to Mpox images. Gradient-weighted Class Activation Mapping (Grad-CAM) visualizations also confirmed that the ViT model attends to clinically relevant features, supporting its interpretability and reliability for diagnostic use. Conclusions: The results from this study suggest that ViT offers superior accuracy, making it a valuable tool for Mpox early detection in field settings, especially where conventional diagnostics are limited. This approach could support faster outbreak response and improved resource allocation in public health systems.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Diagnostics"
+  },
+  {
+    "doi": "10.1177/1088467x251353450",
+    "title": "Model-agnostic meta-learning framework for data loss detection with transfer learning",
+    "authors": "D Naveenkumar; M Karthikeyan",
+    "issuedDate": "2025-7-3",
+    "abstract": "Model-Agnostic Meta-Learning (MAML) has proven to be effective in various learning environments. However, it faces challenges with domain adaptation because it depends on gradient-based optimization, which does not explicitly integrate prior knowledge from related tasks. This limitation results in slow adaptation to new domains and suboptimal performance when Signiant domain shifts occur. Utilizing transfer learning, which skillfully incorporates domain-specific knowledge to boost generalization and adaptability, effectively resolves the challenges faced by current MAML-based techniques across various environments. This study explores the use of transfer learning to create a strong and flexible model that can effectively detect occurrences of data loss or leakage within credit cardholder information datasets. The model is trained on a source domain and ne-tuned on a target domain relevant to data loss detection by leveraging transfer learning. The effectiveness of the Transfer Learning-Based Data Loss Detection on MAML is evaluated through learning iteration versus mean squared error plots. The proposed system also surpasses the existing few-shot learning-based MAML. These plots provide insights into the model's convergence, adaptability, and performance. The abstract highlights the signicance of transfer learning in enhancing the efficiency and accuracy of data loss detection systems, particularly when utilizing the MAML is evaluated through learning iteration versus mean squared error plots. The proposed system also surpasses the existing few-shot learning-based MAML. The findings contribute to the expanding knowledge of transfer learning applications in cybersecurity and data protection. Experiments conducted on the IEEE-CIS Fraud Detection dataset demonstrate that our approach achieves an accuracy of 92.3% and a notable reduction in MSE by 15% compared to standard MAML, underscoring its effectiveness and robustness across various environments.",
+    "publisher": "SAGE Publications",
+    "type": "journal-article",
+    "journal": "Intelligent Data Analysis: An International Journal"
+  },
+  {
+    "doi": "10.3390/ma18133151",
+    "title": "Optimized Microbial Scaffolds Immobilized with Pleurotus ostreatus and Aspergillus oryzae on Foaming Bacterial Cellulose",
+    "authors": "Pei-Ching Chan; Wei-Lun Ku; Yung-Kun Chuang; Yu-Chieh Chou; Chen-Che Hsieh; Yung-Kai Lin; Shella Permatasari Santoso; Shin-Ping Lin",
+    "issuedDate": "2025-7-3",
+    "abstract": "In this study, we explored the development and characterization of fungus-immobilized foamed bacterial cellulose (FBC) scaffolds using Pleurotus ostreatus and Aspergillus oryzae. FBC, a porous biomaterial with high structural integrity and resistance to enzymatic degradation, served as a three-dimensional matrix for fungal cultivation. The results indicated effective fungal immobilization, with the 1% A. oryzae-immobilized FBC group (FBC/1A) achieving the highest production yield. The water content (97%) and swelling behavior (95.9%) analyses revealed that P. ostreatus-immobilized FBC maintained high hydration levels and rehydration capacities, whereas A. oryzae immobilization led to slightly reduced water retention. Morphological assessments via SEM confirmed the presence of fungal-derived fibers integrated with native cellulose structures, suggesting successful immobilization. A thermogravimetric analysis demonstrated enhanced thermal stability in fungus-immobilized FBC, particularly in the A. oryzae group, while FTIR spectra suggested possible structural alterations induced by fungal activity. Collectively, these findings support the potential of fungal-immobilized FBC as a robust, biodegradable material with promising applications in biotechnology and sustainable material development.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Materials"
+  },
+  {
+    "doi": "10.3390/bios15070426",
+    "title": "A SERS Sensor Prepared via Electrostatic Self-Assembly of Ta4C3@AgNP Nanocomposites for Detection of Ziram",
+    "authors": "Kai Hua; Liang Li; Pei Liang",
+    "issuedDate": "2025-7-3",
+    "abstract": "MXenes are a class of two-dimensional materials exhibiting excellent surface-enhanced Raman scattering (SERS) performance. Currently, the SERS studies of MXenes have been primarily focused on those with M2X and M3X2 structural motifs. In order to expand the SERS sensing application based on MXenes, in this paper, a SERS sensor made of Ta4C3@AgNP nanocomposite material was fabricated by electrostatic self-assembly. Tests such as different concentrations of R6G probe molecules showed that the minimum detection limit of this SERS sensor was 10−8 M, demonstrating excellent sensitivity. When different test areas are selected, the relative error of intensity under the same wave number is less than 10.7%, showing good repeatability and consistency. Furthermore, the Ta4C3@AgNP nanocomposite SERS sensor was used to detect the pesticide Ziram, and a quantitative model was established. Application detection indicates that this sensor has good sensitivity for the pesticide Ziram, and the minimum detection limit was 10−6 M, which exceeded national standard requirements. The findings of this study have potential application value in the fields of food safety and environmental protection.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Biosensors"
+  },
+  {
+    "doi": "10.1038/s41598-025-08272-z",
+    "title": "Diagnostic whole exome sequencing in presumably autosomal recessive inherited retinal dystrophies in an Iranian population",
+    "authors": "Pam A.T. Heutinck; Adriana I. Iglesias; Dariush D. Farhud; Marianne van Tienhoven; Atiyeh Khoshraftar; Marjan Zarif-Yeganeh; Sima Kheradmand Kia; Mohsen Ghanbari; Magda A. Smoor; Caroline C.W. Klaver; Lies H. Hoefsloot; Alberta A.H.J. Thiadens; Virginie J.M. Verhoeven",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Scientific Reports"
+  },
+  {
+    "doi": "10.3390/en18133516",
+    "title": "Exploring Long-Term Clean Energy Transition Pathways in Ghana Using an Open-Source Optimization Approach",
+    "authors": "Romain Akpahou; Jesse Essuman Johnson; Erica Aboagye; Fernando Plazas-Niño; Mark Howells; Jairo Quirós-Tortós",
+    "issuedDate": "2025-7-3",
+    "abstract": "Access to clean and sustainable energy technologies is critical for all nations, particularly developing countries in Africa. Ghana has committed to ambitious greenhouse gas emission reduction targets, aiming for 10% and 20% variable renewable energy integration by 2030 and 2070, respectively. This study explores potential pathways for Ghana to achieve its renewable energy production targets amidst a growing energy demand. An open-source energy modelling tool was used to assess four scenarios accounting for current policies and additional alternatives to pursue energy transition goals. The scenarios include Business as Usual (BAU), Government Target (GT), Renewable Energy (REW), and Net Zero (NZ). The results indicate that total power generation and installed capacity would increase across all scenarios, with natural gas accounting for approximately 60% of total generation under the BAU scenario in 2070. Total electricity generation is projected to grow between 10 and 20 times due to different electrification levels. Greenhouse gas emission reduction is achievable with nuclear energy being critical to support renewables. Alternative pathways based on clean energy production may provide cost savings of around USD 11–14 billion compared to a Business as Usual case. The findings underscore the necessity of robust policies and regulatory frameworks to support this transition, providing insights applicable to other developing countries with similar energy profiles. This study proposes a unique contextualized open-source modelling framework for a data-constrained, lower–middle-income country, offering a replicable approach for similar contexts in Sub-Saharan Africa. Its novelty also extended towards contributing to the knowledge of energy system modelling, with nuclear energy playing a crucial role in meeting future demand and achieving the country’s objectives under the Paris Agreement.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Energies"
+  },
+  {
+    "doi": "10.3390/fire8070265",
+    "title": "Numerical Study on Smoke Characteristics in Ultra-Long Tunnels with Multi-Train Fire Scenarios",
+    "authors": "Jiaming Zhao; Cheng Zhang; Saiya Feng; Shiyi Chen; Guanhong He; Yanlong Li; Zhisheng Xu; Wenbin Wei",
+    "issuedDate": "2025-7-3",
+    "abstract": "Metropolitan city express line tunnels are fully enclosed and often span long distances between stations, allowing multiple trains within a single interval. Traditional segmented ventilation ensures only one train per section, but ultra-long tunnels with shaftless designs introduce new challenges under fire conditions. This study investigates smoke behavior in an ultra-long inter-district tunnel during multi-train blockage scenarios. A numerical model evaluates the effects of train spacing, fire source location, and receding spacing on smoke back-layering, temperature distribution, and flow velocity. Results indicate that when train spacing exceeds 200 m and longitudinal wind speed is above 1.2 m/s, the impact of train spacing on smoke back-layering becomes negligible. Larger train spacing increases back-layering under constant wind speed, while higher wind speeds reduce it. Fire source location and evacuation spacing affect the extent and pattern of smoke spread and high-temperature zones, especially under reverse ventilation conditions. These findings provide quantitative insights into fire-induced smoke dynamics in ultra-long tunnels, offering theoretical support for optimizing ventilation control and evacuation strategies in urban express systems.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Fire"
+  },
+  {
     "doi": "10.1017/9781009158688.006",
     "title": "Spatial Partitioning",
     "authors": "N/A",
@@ -198,6 +648,56 @@
     "publisher": "Cambridge University Press",
     "type": "book-chapter",
     "journal": "Spatial Analysis"
+  },
+  {
+    "doi": "10.1007/s12672-025-03068-z",
+    "title": "Single‑cell RNA sequencing reveals TMEM71 as an immunomodulatory biomarker predicting immune checkpoint blockade response in breast cancer",
+    "authors": "Boyang Li; Ruonan Lin; Yibo Hua; Binlin Ma; Yi Chen",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Discover Oncology"
+  },
+  {
+    "doi": "10.3390/app15137472",
+    "title": "An Empirical Evaluation of Ensemble Models for Python Code Smell Detection",
+    "authors": "Rajwant Singh Rao; Seema Dewangan; Alok Mishra",
+    "issuedDate": "2025-7-3",
+    "abstract": "Code smells, which represent poor design choices or suboptimal code implementations, reduce software quality and hinder the code maintenance process. Detecting code smells is, therefore, essential during software development. This study introduces a Python-based code smell dataset targeting two smell types: Large Class and Long Method. Five ensemble learning methods—Bagging, Gradient Boost, Max Voting, AdaBoost, and XGBoost—were employed to detect code smells within these datasets. The ten most significant features were selected using the Chi-square feature selection technique. To address the class imbalance, the SMOTE algorithm was applied. Experimental results yielded a best accuracy score of 0.96 and an MCC of 0.85 for the Large Class dataset using the Max Voting model. For the Long Method dataset, a best accuracy score of 0.98 and an MCC of 0.94 were achieved using the Gradient Boost model in conjunction with Chi-square feature selection. These results highlight the effectiveness of the proposed methodology and its potential to enhance code smell detection in Python significantly, reinforcing confidence in the approach’s thoroughness and applicability.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Applied Sciences"
+  },
+  {
+    "doi": "10.3390/microorganisms13071571",
+    "title": "Harnessing Waste Bread: From Potential Use in Microbial Growth and Enzyme Production to Techno-Economic Assessment",
+    "authors": "Sameh Ben Mabrouk; Bouthaina Ben Hadj Hmida; Wejdene Sallami; Salma Dhaouadi; Theodoros Varzakas; Slim Smaoui",
+    "issuedDate": "2025-7-3",
+    "abstract": "This study highlights waste bread (WB) as a novel, cost-effective, and nutrient-rich substrate for microbial growth, offering a sustainable alternative to conventional media. As a renewable resource, WB promotes the circular economy by reducing food waste and encouraging biotechnological innovation. The incorporation of WB into microbial culture media enhanced the growth of various reference strains (E. coli, E. faecalis, P. aeruginosa, and S. aureus), with at least a two-fold increase compared to conventional Luria-Bertani (LB) medium. Moreover, combining 2% WB with diluted LB (1/10) reduced medium costs by up to 90%. Furthermore, it was confirmed that 1% WB can effectively replace starch during the screening of amylolytic strains. Applying a fractional factorial design, the production of amylase by Bacillus sp. BSS (Amy-BSS) was enhanced 15-fold. An analysis of the Pareto diagram revealed that WB was the most significant factor. Additionally, Amy-BSS was applied to hydrolyze polysaccharides in WB, enabling the generation of high-value-added products in food processing. This hydrolysis process yielded 4.6 g/L of fermentable sugars from 1% WB. Evaluating the economic feasibility of WB valorization into value-added products elucidates potential pathways for cost reduction and enhanced environmental sustainability, thereby positioning WB as a viable tool for sustainable development.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Microorganisms"
+  },
+  {
+    "doi": "10.4038/sljb.v10i2.124",
+    "title": "Isolation of ClpB &amp;amp; DnaK bi-chaperones from obligate pathogen &lt;em&gt;Anaplasma phagocytophilum&lt;/em&gt; as future therapeutic targets",
+    "authors": "Chathuranga B. Ranaweera; Swetha Madesh; Sunitha Shiva; Roman R. Ganta; Michal Zolkiewski",
+    "issuedDate": "2025-7-3",
+    "abstract": "Anaplasma phagocytophilum is an obligate intracellular pathogen that causes Human Granulocytic Anaplasmosis (HGA). Genetic manipulation of obligate intracellular pathogens is extremely difficult, as these organisms possess small genomes made primarily of essential genes and rely significantly on the host cell for proliferation. To date, only a handful of genetic tools have been developed to study the pathobiology of Anaplasma, and doxycycline remains the only available treatment for HGA. ClpB and DnaK are molecular chaperones responsible for reactivating and resolubilizing protein aggregates within the cellular environment. Recently, ClpB has emerged as a promising target for the development of novel antimicrobials, as it is essential for the survival of many pathogens and lacks apparent orthologs in metazoans. Initial findings indicate that these chaperones have different substrate preferences, despite being almost identical across different species, providing a unique approach to develop novel therapeutics against specific species.",
+    "publisher": "Sri Lanka Journals Online",
+    "type": "journal-article",
+    "journal": "Sri Lankan Journal of Biology"
+  },
+  {
+    "doi": "10.1186/s12913-025-12814-6",
+    "title": "Information sources as determinants of use of formal long-term care: a cross-sectional study in Taiwan",
+    "authors": "Yu-Hung Chang; Chia-Hui Hsu; Yu-Chun Tseng; Wan-Chun Yang; Hung-Yi Chiou",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          \n            Background\n            An ageing population has heightened the need for long-term care (LTC) access. It is not well understood how information sources, both formal and informal, impact the utilisation of LTC. This study aims to investigate the influence of formal and informal sources on the utilisation of LTC services by Taiwanese families employing migrant live-in caregivers.\n          \n          \n            Methods\n            This study employed a cross-sectional design and used a structured telephone survey to collect data from 441 registered employers from households employing migrant caregivers. This included 216 families using LTC and 225 not using LTC. We collected data on the characteristics of employers and care recipients, as well as LTC-related information sources. Our formal sources (FS) included government promotional events, LTC community site volunteers, healthcare providers, and local LTC management centres, while informal sources (IS) comprised community leaders, friends and relatives, TV, print media, internet, and patient support groups. We assessed perceived information gaps by asking questions about reasons for not using LTC. We used logistic regressions to analyse the associations of FS and IS with LTC use, employer and care recipient characteristics, and perceived information gaps.\n          \n          \n            Results\n            A higher number of FS was positively associated with LTC usage, while an increase in IS was negatively associated. FS and IS were associated with employer socio-demographics such as gender, education level, and care recipient factors, including living arrangements and care needs. FS reduced perceived information gaps, but IS did not.\n          \n          \n            Conclusions\n            Information sources significantly influence the use of LTC among families employing migrant caregivers. Our findings suggest that LTC authorities should implement strategies to enhance the accessibility of formal information sources, while also leveraging informal sources more effectively to support accurate and timely LTC decisions for these families and the wider public.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Health Services Research"
   },
   {
     "doi": "10.3389/fneur.2025.1545126",
@@ -210,6 +710,126 @@
     "journal": "Frontiers in Neurology"
   },
   {
+    "doi": "10.4108/eetinis.v12i3.8720",
+    "title": "FedNDA: Enhancing Federated Learning with Noisy Client Detection and Robust Aggregation",
+    "authors": "Tuan Dung Kieu; Charles Fonbonne; Trung-Kien Tran; Thi-Lan Le; Hai Vu; Huu-Thanh Nguyen; Thanh-Hai Tran",
+    "issuedDate": "2025-7-3",
+    "abstract": "Federated Learning is a novel decentralized methodology that enables multiple clients to collaboratively train a global model while preserving the privacy of their local data. Although federated learning enhances data privacy, it faces challenges related to data quality and client behavior. A fundamental issue is the presence of noisy labels in certain clients, which damages the global model's performance. To address this problem, this paper introduces a Federated learning framework with Noisy client Detection and robust Aggregation, FedNDA. In the first stage, FedNDA detects noisy clients by analyzing the distribution of their local losses. A noisy client exhibits a loss distribution distinct from that of clean clients. To handle class imbalance issue in local data, we utilize per-class losses instead of the total loss. We then assign each client a noisiness score, calculated as the Earth Mover’s Distance between the per-class loss distribution of the client and the average distribution of all clean clients. This noisiness metric is more sensitive for detecting noisy clients compared to conventional metrics such as Euclidean distance or L1 norm. The noisiness score is subsequently transfered to and used in the server-side aggregation function to prioritize clean clients while reducing the influence of noisy clients. Experimental results demonstrate that FedNDA outperforms FedAvg and FedNoRo by 4.68% and 3.6% on the CIFAR-10 dataset, and by 10.65% and 0.48% on the ICH dataset, respectively, in a high noisy setting.",
+    "publisher": "European Alliance for Innovation n.o.",
+    "type": "journal-article",
+    "journal": "EAI Endorsed Transactions on Industrial Networks and Intelligent Systems"
+  },
+  {
+    "doi": "10.3390/pr13072112",
+    "title": "Quantitative Detection of Mixed Gas Infrared Spectra Based on Joint SAE and PLS Downscaling with XGBoost",
+    "authors": "Xichao Zhou; Baigen Wang; Xingjiang Bao; Hongtao Qi; Yong Peng; Zishang Xu; Fan Zhang",
+    "issuedDate": "2025-7-3",
+    "abstract": "In view of the bottleneck problems of serious spectral peak cross-interference, redundant data dimensions, and inefficient traditional dimensionality reduction methods in the infrared spectral analysis of mixed gases, this paper studies a joint dimensionality reduction strategy combining stacked self encoder (SAE) and partial least squares (PLS) and constructs an XGBoost regression model for quantitative detection. The experimental data are from the real infrared spectrum dataset of the National Institute of Standards and Technology (NIST) database, covering key industrial gases such as CO, CH4, etc. Compared with the traditional principal component analysis (PCA), which relies on the variance contribution rate and leads to dimensional redundancy, and the calculation efficiency of dimension parameters that need to be cross-verified for PLS dimension reduction alone, the SAE-PLS joint strategy has two advantages: first, the optimal dimension reduction is automatically determined by SAE’s nonlinear compression mechanism, which effectively overcomes the limitations of linear methods in spectral nonlinear feature extraction; and second, the feature selection is carried out by combining the variable importance projection index of PLS. Compared with SAE, the compression efficiency is significantly improved. The XGBoost model was selected because of its adaptability to high-dimensional sparse data. Its regularization term and feature importance weighting mechanism can suppress the interference of spectral noise. The experimental results show that the mean square error (MSE) on the test set is reduced to 0.012% (71.4% lower than that of random forest), and the correlation coefficient (R2) is 0.987. By integrating deep feature optimization and ensemble learning, this method provides a new solution with high efficiency and high precision for industrial process gas monitoring.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Processes"
+  },
+  {
+    "doi": "10.3390/rs17132276",
+    "title": "Automated Detection of Center-Pivot Irrigation Systems from Remote Sensing Imagery Using Deep Learning",
+    "authors": "Aliasghar Bazrafkan; James Kim; Rob Proulx; Zhulu Lin",
+    "issuedDate": "2025-7-3",
+    "abstract": "Effective detection of center-pivot irrigation systems is crucial in understanding agricultural activity and managing groundwater resources for sustainable uses, especially in semi-arid regions such as North Dakota, where irrigation primarily depends on groundwater resources. In this study, we have adopted YOLOv11 to detect the center-pivot irrigation systems using multiple remote sensing datasets, including Landsat 8, Sentinel-2, and NAIP (National Agriculture Imagery Program). We developed an ArcGIS custom tool to facilitate data preparation and large-scale model execution for YOLOv11, which was not included in the ArcGIS Pro deep learning package. YOLOv11 was compared against other popular deep learning model architectures such as U-Net, Faster R-CNN, and Mask R-CNN. YOLOv11, using Landsat 8 panchromatic data, achieved the highest detection accuracy (precision: 0.98; recall: 0.91; and F1-score: 0.94) among all tested datasets and models. Spatial autocorrelation and hotspot analysis revealed systematic prediction errors, suggesting a need to adjust training data regionally. Our research demonstrates the potential of deep learning in combination with GIS-based workflows for large-scale irrigation system analysis, adopting precision agricultural technologies for sustainable water resource management.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Remote Sensing"
+  },
+  {
+    "doi": "10.26434/chemrxiv-2025-rbmmb",
+    "title": "Meltable Semiconductive Lead-Thiolate Coordination Polymers with Long Alkyl Chains",
+    "authors": "Ryohei Akiyoshi; Shunya Takamura; Chie Sawada; Naohiro Takahashi; Takashi Okubo; Akinori Saeki; Zi Goo; Kunihisa Sugimoto; Yuki Mori; Shogo Kawaguchi; Yuiga Nakamura; Toshiaki Ina; Misaki Katayama; Hiroki Yamada; Seiya Shimono; Takuya Kurihara; Kazuyoshi Ogasawara; Daisuke Tanaka",
+    "issuedDate": "2025-7-3",
+    "abstract": "Meltable organic–inorganic hybrid semiconductors have attracted considerable research attention owing to their potential for melt-based processing, offering distinct advantages over conventional solution-based techniques. Although meltable semiconducting metal halide perovskites have been extensively studied, meltable semiconducting coordination polymers remain scarce, despite their excellent structural designability and the tunability of their optoelectronic properties. Herein, we report a new family of meltable semiconductive Pb(II) benzenethiolate coordination polymers bearing long alkyl chains, formulated as [Pb(SPhOC6)2]n (KGF-34(C6); HSPhOC6 = 4-hexyloxybenzenethiol, KGF = Kwansei Gakuin Framework). For comparison, we also synthesized the classical analogue [Pb(SC6)2]n (KGF-59(C6); HSC6 = 1-hexanethiol). Single-crystal X-ray diffraction analyses revealed that both KGF-34(C6) and KGF-59(C6) adopt two-dimensional architectures, albeit with distinct inorganic (–Pb–S–)n networks. A comprehensive characterization of the semiconducting properties, combined with first-principles calculations, revealed that KGF-34(C6) exhibits significantly higher photoconductivity, a narrower band gap, and a larger band dispersion than KGF-59(C6), attributable to differences in their inorganic (–Pb–S–)n network structures. Furthermore, both KGF-34(C6) and KGF-59(C6) exhibit multiple phase transitions, including melting and liquid crystalline formation, thereby enabling the fabrication of optoelectronic devices via melt processing. Notably, this is the first report of meltable semiconducting coordination polymers comprising benzenethiol-derived ligands. The findings of this study offer a rational design strategy for developing melt-processable semiconductive materials based on metal-benzenethiolate coordination polymers.",
+    "publisher": "American Chemical Society (ACS)",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.1007/s42832-025-0332-0",
+    "title": "Divergent effects of root and leaf litter on soil microbial diversity decouple soil C-N release",
+    "authors": "Xinxin Zhang; Hongying Luo; Xu Yang; Ying Lei; Bing Wang; Huiling Zhang; Dima Chen",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Soil Ecology Letters"
+  },
+  {
+    "doi": "10.1186/s12870-025-06786-2",
+    "title": "Analysing the loss of embryogenic competence in long-term cell lines of Solanum betaceum Cav.: involvement of miR827, phosphate and sugar",
+    "authors": "Daniela Cordeiro; Jorge Canhoto; Sandra Correia",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "BMC Plant Biology"
+  },
+  {
+    "doi": "10.3390/biomedicines13071629",
+    "title": "Dual-Emitting Molecularly Imprinted Nanopolymers for the Detection of CA19-9",
+    "authors": "Eduarda Rodrigues; Ana Xu; Rafael C. Castro; David S. M. Ribeiro; João L. M. Santos; Ana Margarida L. Piloto",
+    "issuedDate": "2025-7-3",
+    "abstract": "Background/Objectives: Carbohydrate antigen 19-9 (CA19-9) is a clinically established biomarker primarily used for monitoring disease progression and recurrence in pancreatic and gastrointestinal cancers. Accurate and continuous quantification of CA19-9 in patient samples is critical for effective clinical management. This study aimed to develop dual-emitting molecularly imprinted nanopolymers (dual@nanoMIPs) for ratiometric and reliable detection of CA19-9 in serum. Methods: Dual-emitting nanoMIPs were synthesized via a one-step molecular imprinting process, incorporating both blue-emitting carbon dots (b-CDs) as internal reference fluorophores and yellow-emitting quantum dots (y-QDs) as responsive probes. The CA19-9 template was embedded into the polymer matrix to create specific recognition sites. Fluorescence measurements were carried out under 365 nm excitation in 1% human serum diluted in phosphate-buffered saline (PBS). Results: The dual@nanoMIPs exhibited a ratiometric fluorescence response upon CA19-9 binding, characterized by the emission quenching of the y-QDs at 575 nm, while the b-CDs emission remained stable at 467 nm. The fluorescence shift observed in the RGB coordinates from yellow to green in the concentration range of CA19-9 tested, improved quantification accuracy by compensating for matrix effects in serum. A linear detection range was achieved from 4.98 × 10−3 to 8.39 × 102 U mL−1 in serum samples, with high specificity and reproducibility. Conclusions: The dual@nanoMIPs developed in this work enable a stable, sensitive, and specific detection of CA19-9 in minimally processed serum, offering a promising tool for longitudinal monitoring of cancer patients. Its ratiometric fluorescence design enhances reliability, supporting clinical decision-making in the follow-up of pancreatic cancer.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Biomedicines"
+  },
+  {
+    "doi": "10.1101/2025.06.28.662086",
+    "title": "Microbial Tryptophan Metabolism Activates Host Lysosomal Activity to Facilitate Lipid Breakdown and Ameliorate Hepatic Steatosis",
+    "authors": "Kenan Zhang; Zihan Luo; Yan Li; Yan Chen; Lang Wang; Yanan Liu; Ruizhi Yang; Qian Li; Jiahao Zhao; BIN QI; Zhao Shan",
+    "issuedDate": "2025-7-3",
+    "abstract": "Lysosomes are central to lipid metabolism, yet how gut microbiota-derived metabolites regulate lysosomal function to influence host lipid homeostasis remains unknown. Here, we identify an evolutionarily conserved mechanism in which bacterial tryptophan metabolism activates lysosomal activity to promote lipid breakdown. By developing a lysosomal-responsive lipid reporter in C. elegans to screen for bacterial metabolic states that modulate host lipid storage, we discover that E. coli tryptophan catabolism via tryptophanase TnaA induces lysosomal lipid chaperone LBP-8, driving lipid mobilization. Moreover, tryptophan metabolites enhanced lysosomal acidification and degradation capacity, while genetic disruption of lysosomal regulators reversed these effects. Strikingly, bacterial tryptophan metabolism further promoted mitochondrial β-oxidation through lysosomal lipase activity. This pathway was conserved in mammalian hepatocytes, where E. coli-derived tryptophan metabolites enhance lysosomal function and reduce lipid accumulation. In high-fat diet mice, restoring gut bacterial tryptophan metabolism alleviated hepatic steatosis. Our work uncovers microbiota-regulated lysosomal activation as a critical axis in lipid homeostasis, highlighting its potential as a therapeutic target for metabolic disorders linked to lysosomal dysfunction.",
+    "publisher": "Cold Spring Harbor Laboratory",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.1111/age.70025",
+    "title": "Signatures of selection detected from whole‐genome sequencing indicate that the small body size in dwarf rabbit breeds is caused by polygenic effects with a few major loci",
+    "authors": "Samuele Bovo; Miguel Carneiro; Anisa Ribani; Matteo Bolner; Valeria Taurisano; Giuseppina Schiavo; Michele Schiavitto; Francesca Bertolini; Luca Fontanesi",
+    "issuedDate": "2025-7-3",
+    "abstract": "AbstractEarly genetic studies have suggested that body size in rabbits can be considered a quantitative trait. Several rabbit breeds can be distinguished based on body size, including a few dwarf breeds differentiated by other morphological characteristics. While a large deletion in the HMGA2 gene is a major locus associated with dwarfism in Netherland Dwarf rabbits, it may not fully explain the reduced body size in this breed or other dwarf breeds. In this study, we compared the genomes of two dwarf rabbit breeds (Dwarf Lop and Netherland Dwarf) with those of non‐dwarf rabbits by analysing whole‐genome sequencing data obtained using a DNA‐pool sequencing approach. We applied the fixation index (FST) and pooled heterozygosity (HP) statistics to identify signatures of selection related to small body size by contrasting dwarf with non‐dwarf breeds and comparing dwarf breeds. We identified several genomic regions that contain genes previously linked to body dimensions in various species, including LCORL‐NCAPG, COL2A1, GHRHR and CENPE. Functional enrichment analysis of genes within the top differentiated regions revealed biological terms related to skeletal development, further supporting the biological relevance of these loci. Additionally, the use of the latest version of the reference rabbit genome enabled the identification of a genomic region containing FGFR3, a gene linked to achondroplasia. Some genomic regions showed differentiation between the two dwarf breeds, suggesting that their small body size may, in part, arise through different genetic mechanisms. Overall, these findings support a polygenic architecture underlying small size in rabbits, influenced by a few major loci.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "Animal Genetics"
+  },
+  {
+    "doi": "10.1038/s41531-025-01032-w",
+    "title": "Novel technologies for REM sleep behavior disorder detection for home screening in Parkinson’s disease and related alpha-synucleinopathies",
+    "authors": "Kaat Colman; An-Marie Schyvens; Ilse De Volder; Johan Verbraecken; Angelique Pijpers; Mineke Viaene; Wolfgang Oertel; Femke Dijkstra; David Crosiers",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "npj Parkinson's Disease"
+  },
+  {
+    "doi": "10.21926/obm.genet.2503300",
+    "title": "Gut Microbial Similarity Analysis in Mono and Dizygotic Twins Discordant for Down Syndrome",
+    "authors": "Pierre-Yves Maillard; Sima Tokajian; Marie Vilaire-Meunier; Charbel Al Khoury; Cybel Mehawej; Eliane Chouery; Marie-Anne Caillaud; Louise Maillebouis; Ines Ben Smida; Sophie Durand; Aimé Ravel; Cecile Cieuta-Walti; Marie-Noëlle Ungeheuer; Clotilde Mircher; André Mégarbané",
+    "issuedDate": "2025-7-3",
+    "abstract": "To investigate the potential impact of the additional chromosome 21 on the gut microbiome in patients with Down syndrome (DS), two monozygotic (MZ) and two dizygotic (DZ) twin pairs discordant for DS were studied. Whole-genome shotgun sequencing was conducted to analyze the taxonomic and functional profiles of the gut microbial community in the twins and assess whether the gut microbiome composition influences the development of psychological pathologies. Sequencing generated a total of 2,338,132 reads, combined across the four samples. The number of contigs ranged from 98,521 to 122,000, and the GC content was 46.34-47.15%. The Simpson index at the species level in the DS of our study was distinctly higher in the DZ-DS but not in the MZ-DS. Taxonomic classification revealed a Western diversity profile in the twins, where the dominant bacterial phyla were Firmicutes, Bacteroidetes, and Actinomycetota. Each sample had a diversity of ten families at abundance &gt;0.5%, of which &lt;em&gt;Prevotellaceae, Lachnospiraceae&lt;/em&gt;, and &lt;em&gt;Bacteroidaceae&lt;/em&gt; were the most prevalent. The&lt;em&gt; Prevotellaceae&lt;/em&gt; family was detected at a high level in all samples, except in the DZ-DS, where &lt;em&gt;Lachnospiraceae&lt;/em&gt; was the most abundant family. At the genus level, marked differences were observed between the DZ-DS twins compared to the others. &lt;em&gt;Prevotella &lt;/em&gt;was not detected in the DZ-DS twin whereas it was the dominant genus in the MZ-DS and both healthy twins. The variation in predicted metagenomes between DS and non-DS showed that the average relative abundances for DS were comparable to those for non-DS. The two MZ twins discordant for DS appear to have relatively similar microbiomes, suggesting that the added chromosome 21 did not have a significant impact on gut microbiome composition. Identifying biomarkers of DS that modulate the gut composition and affect the overall health needs to be further studied, along with the potential role of &lt;em&gt;Prevotella&lt;/em&gt;.",
+    "publisher": "LIDSEN Publishing Inc",
+    "type": "journal-article",
+    "journal": "OBM Genetics"
+  },
+  {
+    "doi": "10.1007/s00417-025-06885-8",
+    "title": "Long-term remission and incidence of recurrence of neovascularization in intravitreal injection treated exudative age-related macular degeneration",
+    "authors": "Jen-Yu Liu; Cheng-Kuo Cheng; Chyi-Huey Bai; Chiung-Yi Chiu",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Graefe's Archive for Clinical and Experimental Ophthalmology"
+  },
+  {
     "doi": "10.3389/fdmed.2025.1638435",
     "title": "Association between the severity of gingival inflammation and microbial findings in children",
     "authors": "Hristina Tankova",
@@ -218,6 +838,76 @@
     "publisher": "Frontiers Media SA",
     "type": "journal-article",
     "journal": "Frontiers in Dental Medicine"
+  },
+  {
+    "doi": "10.3390/vetsci12070637",
+    "title": "Development of a Novel, Non-Invasive Saliva Sampling Method for the Detection of Bovine Respiratory Viruses",
+    "authors": "Simona Baumann; Belinda Euring; Maxi Harzer; Mandy Eibisch; Andrea Lindner; Thomas W. Vahlenkamp; Kristin Heenemann",
+    "issuedDate": "2025-7-3",
+    "abstract": "Bovine respiratory disease (BRD) is one of the most significant health issues in cattle populations worldwide, leading to great economic losses and animal suffering [...]",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Veterinary Sciences"
+  },
+  {
+    "doi": "10.1007/s10921-025-01229-2",
+    "title": "Intelligent Flaw Detection in Eddy Current Inspection Data Through Machine Learning Model",
+    "authors": "Tikesh Kumar Sahu; S. Thirunavukkarasu; Anish Kumar",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Journal of Nondestructive Evaluation"
+  },
+  {
+    "doi": "10.1242/jeb.250671",
+    "title": "Long-term salinity exposure reveals site-specific physiological and behavioral responses in coastal and inland toads",
+    "authors": "Léa Lorrain-Soligon; Leïla Barrouillet; Olivier Lourdais; Mathieu Plateau; Timothé Bizon; Frédéric Angelier; Cécile Ribout; Charline Parenteau; Marko Jankovic; Frédéric Robin; François Brischoux",
+    "issuedDate": "2025-7-3",
+    "abstract": "Salinization is a global phenomenon affecting many coastal and inland water bodies at unprecedented rates, and having multiple consequences for wildlife, mostly due to the high metabolic cost of osmoregulation. Most research on salinity effects has focused on juvenile life stages and short-term exposures. In this study, we evaluated the impact of chronic exposure (7 months) to environmental salinity (0, 2 or 4 g.l−1) in adult individuals of a widespread amphibian species, the spined toad (Bufo spinosus), originating either from coastal (salt-exposed) or inland (naïve to salinity) environments. Coastal and inland individuals, irrespective of exposure to salinity, differed post-exposure in telomeres length, cutaneous permeability, defensiveness and foraging behaviors, but unexpectedly not in triiodothyronine and testosterone levels, and mass-specific metabolic rates. As pre-exposure data were unavailable for some of these traits (metaolic rate, cutaneous permeability, and behavior), these differences may reflect either intrinsic population-level variation or population-specific responses to treatment. Coastal individuals exhibited compensatory growth in freshwater, suggesting differential energy allocation. Chronic exposure to moderate salinity increased osmolality and triiodothyronine levels while reducing growth and preferred temperature. Interestingly, defensiveness and thermal preference were more affected by exposure to salinity in coastal individuals. Despite their saline environment, they also showed higher cutaneous evaporative water loss, potentially facilitating water uptake to counter salinity stress. Our study demonstrates that salinization can have negative effects on critical traits of adult anurans, and emphasizes the importance to increase research effort on the impact of salinity on wildlife including both experimental and long-term field studies.",
+    "publisher": "The Company of Biologists",
+    "type": "journal-article",
+    "journal": "Journal of Experimental Biology"
+  },
+  {
+    "doi": "10.1007/s13755-025-00357-3",
+    "title": "CnnBoost: a multilevel explainable stacked ensemble framework for effective detection of Myocardial Infarction from 12-lead ECG images using a transformational approach",
+    "authors": "Pillai Lekshmi Ashokan; S. Siva Sathya; Santhosh Satheesh",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Health Information Science and Systems"
+  },
+  {
+    "doi": "10.3390/app15137468",
+    "title": "Real-Time Lightweight Morphological Detection for Chinese Mitten Crab Origin Tracing",
+    "authors": "Xiaofei Ma; Nannan Shen; Yanhui He; Zhuo Fang; Hongyan Zhang; Yun Wang; Jinrong Duan",
+    "issuedDate": "2025-7-3",
+    "abstract": "During the cultivation and circulation of Chinese mitten crab (Eriocheir sinensis), the difficulty in tracing geographic origin leads to quality uncertainty and market disorder. To address this challenge, this study proposes a two-stage origin traceability framework that integrates a lightweight object detector and a high-precision classifier. In the first stage, an improved YOLOv10n-based model is designed by incorporating omni-dimensional dynamic convolution, a SlimNeck structure, and a Lightweight Shared Convolutional Detection head, which effectively enhances the detection accuracy of crab targets under complex multi-scale environments while reducing computational cost. In the second stage, an Improved GoogleNet’s Inception Net for Crab is developed based on the Inception module, with further integration of Asymmetric Convolution Blocks and Squeeze and Excitation modules to improve the feature extraction and classification ability for regional origin. A comprehensive crab dataset is constructed, containing images from diverse farming sites, including variations in species, color, size, angle, and background conditions. Experimental results show that the proposed detector achieves an mAP50 of 99.5% and an mAP50-95 of 88.5%, while maintaining 309 FPS and reducing GFLOPs by 35.3%. Meanwhile, the classification model achieves high accuracy with only 17.4% and 40% of the parameters of VGG16 and AlexNet, respectively. In conclusion, the proposed method achieves an optimal accuracy-speed-complexity trade-off, enabling robust real-time traceability for aquaculture systems.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Applied Sciences"
+  },
+  {
+    "doi": "10.22541/au.175153165.58281604/v1",
+    "title": "Exploring Cry Acoustics as a Tool for Early Detection of Infants with Hearing Impairment: A Case-Control Study",
+    "authors": "N. Sreedevi; Ramachandran Archana; Arunraj Karuppannan",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Wiley",
+    "type": "posted-content",
+    "journal": "N/A"
+  },
+  {
+    "doi": "10.1038/s41598-025-04152-8",
+    "title": "Protective role of anti-SARS-CoV-2 antibody responses against vital organ related long COVID symptoms",
+    "authors": "Jhosiene Yukari Magawa; Lucas Cauê Jacintho; Marcelo Alves Ferreira; Jamille Ramos Oliveira; Rafael Rahal Guaragna Machado; Andreia Kuramoto Takara; Renata Moreno Lima de Oliveira; Ariane Cesario Lima; Greyce Luri Sasahara; Flávia Lopes Adami; Giuliana Xavier Medeiros; Juliana de Souza Apostolico; Edgar Ruz Fernandes; Danielle Bruna Leal de Oliveira; Edison Luiz Durigon; Pedro Giavina Bianchi; Silvia Beatriz Boscardin; Daniela Santoro Rosa; Edecio Cunha-Neto; Jorge Kalil; Verônica Coelho; Keity Souza Santos",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Scientific Reports"
   },
   {
     "doi": "10.1038/s41598-025-08436-x",
@@ -230,6 +920,16 @@
     "journal": "Scientific Reports"
   },
   {
+    "doi": "10.1038/s12276-025-01489-y",
+    "title": "Single-cell RNA sequencing reveals anterograde trans-synaptic degeneration and exacerbated synaptic remodeling in myopia",
+    "authors": "Ruixue Zhang; Yunxiao Xie; Miao Zhang; Zhiheng Li; Lijie Guo; Huixia Wei; Xiaomeng Li; Jizhao Xin; Zhaohui Yang; Ying Wen; Jiawen Hao; Xianglin Li; Xuewei Yin; Wenjun Jiang; Hongsheng Bi; Dadong Guo",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          Myopia is a serious public health issue worldwide. Damage to retinal ganglion cells (RGCs) in the retina induces degeneration of the visual cortex, which is known as anterograde trans-synaptic degeneration (TSD). However, the role of TSD in myopia is still unknown. Here single-cell RNA-sequencing revealed the activation of RGC apoptotic signals in the retinal ganglion and the remodeling of synapses in the visual cortex in myopia. The thickness of the retinal nerve fiber layer was negatively correlated with the degree of damage to the visual cortex and damage to neurons in the visual pathway and to the synaptic structure and function of the visual cortex indicated the occurrence of anterograde TSD in the visual pathway. The knockdown of Fos, which inhibited retinal neuronal apoptosis, suppressed TSD, indicating that myopia can aggravate RGC apoptosis, induce anterograde TSD and thus aggravate synaptic remodeling. Our findings provide a new experimental basis for understanding the pathogenesis of myopia.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Experimental &amp; Molecular Medicine"
+  },
+  {
     "doi": "10.1186/s40246-025-00789-8",
     "title": "Shared genetic architecture between stroke and blood lipids: a large-scale genome-wide cross-trait analysis",
     "authors": "Wenya Bai; Guilin Zhou; Huan Jiang; Xuelian Li; Jianlin Shao",
@@ -240,14 +940,44 @@
     "journal": "Human Genomics"
   },
   {
-    "doi": "10.1007/s43440-025-00747-0",
-    "title": "Behavioral tests to assess short- and long-lasting sensorimotor deficits following transient focal cerebral ischemia in rodents",
-    "authors": "Enrique García-Alfonso; Jeney Ramírez-Sánchez; Maylin Wong-Guerra; Luis Arturo Fonseca-Fonseca; Yanay Montano-Peguero; Daniela Risco-Acevedo; Yanier Núñez-Figueredo",
+    "doi": "10.1007/s40747-025-01961-2",
+    "title": "A survey of sensors based autonomous unmanned aerial vehicle (UAV) localization techniques",
+    "authors": "Haiqiao Liu; Qing Long; Bing Yi; Wen Jiang",
     "issuedDate": "2025-7-3",
     "abstract": "N/A",
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
-    "journal": "Pharmacological Reports"
+    "journal": "Complex &amp; Intelligent Systems"
+  },
+  {
+    "doi": "10.4324/9781003527930-13",
+    "title": "Housing Security and Policy Over the Long Run, Japan 1600–2000",
+    "authors": "Mitsuo Kinoshita",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Routledge",
+    "type": "book-chapter",
+    "journal": "Post-War Public Housing and Well-Being"
+  },
+  {
+    "doi": "10.1007/s12355-025-01618-x",
+    "title": "Influence of Deep Tillage and Liming on Soil Quality: Physical Attributes, Microbial Activity, and Sugarcane Yield in Clay Soils",
+    "authors": "Marcela Pacola; Tiara Moraes Guimarães; Juliano Carlos Calonego; Fábio Fernando de Araújo; João Paulo Gonsiorkiewicz Rigon; João William Bossolani; Lucas Moraes Jacomassi; Josiane Viveiros; Gabriela Ferraz de Siqueira; Carlos Alexandre Costa Crusciol",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Sugar Tech"
+  },
+  {
+    "doi": "10.1038/s41377-025-01882-2",
+    "title": "Water-insensitive NIR-I-to-NIR-I down-shifting nanoparticles enable stable biomarker detection at low power thresholds in opaque aqueous environments",
+    "authors": "Dongkyu Kang; Suyeon Kim; Yeongchang Goh; Minseo Kim; Sun-Hak Lee; Jung-Hoon Kwon; Sang Hwan Nam; Joonseok Lee",
+    "issuedDate": "2025-7-3",
+    "abstract": "Abstract\n          Luminescence quenching in aqueous environments poses a challenge for practical applications. Lanthanide-doped up-conversion nanoparticles (UCNPs), representative of near-infrared (NIR)-emitting phosphors, typically utilize Yb3+ ions as sensitizers, requiring 980 nm light. This wavelength coincides with the transitions of water molecules, interfering with population dynamics, and continuous irradiation causes unintended heating. Although Nd3+ ions, which absorb at 800 nm, serve as alternative sensitizers, their practical use is limited by low quantum yield (Q.Y.). In this study, we developed water-insensitive down-shifting nanoparticles (WINPs) functioning within the NIR-I range (700–900 nm) to avoid water interference. Characterization through single-particle-level spectroscopy demonstrated water-insensitive properties, with identical powers density and lifetime profiles under both dry and water conditions. The WINPs achieved a high Q.Y. of 22.1 ± 0.9%, allowing operation at a detection limit power 15-fold lower than UCNPs, effectively eliminating background noise and enhancing overall performance. To assess diagnostic potential, we validated WINP-based lateral flow immunoassay (LFA) for detecting avian influenza viruses (AIVs) in 65 opaque clinical samples, achieving 100% sensitivity and an area under the curve (AUC) of 1.000 at only 100 mW cm−2. These findings highlight the potential of WINPs as water-insensitive NIR phosphors that can operate at low power, even in water-rich environments.",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Light: Science &amp; Applications"
   },
   {
     "doi": "10.3389/fpsyt.2025.1623126",
@@ -260,6 +990,116 @@
     "journal": "Frontiers in Psychiatry"
   },
   {
+    "doi": "10.1177/30504554251351227",
+    "title": "Dual-Branch Hybrid Visual Networks and Hierarchical Adaptive Fusion Strategy: An Effective Multimodal Fake News Detection Model",
+    "authors": "Xian Fu; Zhuzhu Zhang; Yu Sun; Tianrun Wu; Hui Zhang; Yaqiang Cao; Qi Cheng; Ningning Zhang",
+    "issuedDate": "2025-7-3",
+    "abstract": "Current fake news detection models do not adequately extract fine-grained image features and also ignore the important impact of shallow text features on the results. In addition, the fusion methods are too simple and do not take into account the different importance of various information sources on the final detection results. To address these limitations, we propose a named Dual-branch Hybrid Visual Networks and Hierarchical Adaptive Fusion Strategy Model (DVHAM). Specifically, we design a dual-branch hybrid network based on transformer and convolutional neural network architecture. This network not only considers the global features of the image but also fully incorporates the local details of the image. In addition, we incorporate the hierarchical information of text to construct a hierarchical adaptive dynamic fusion module. The module employs a paired multihead attention mechanism and an adaptive adjustment strategy based on a gating mechanism. This design enables the model to capture and utilize the complementarity and correlation between the semantic and visual information at different levels in the text model. Simultaneously, it adaptively fuses the modal interaction features containing different information for the final detection task. DVHAM achieves an accuracy of 91.5%, 92.4%, and 90.6% on the Weibo, TWITTER, and PHEME datasets, respectively. This proves the effectiveness of DVHAM in the field of fake news detection.",
+    "publisher": "SAGE Publications",
+    "type": "journal-article",
+    "journal": "The European Journal on Artificial Intelligence"
+  },
+  {
+    "doi": "10.3390/plants14132038",
+    "title": "Full-Length Transcriptome Sequencing of Pinus massoniana Under Simulated Monochamus alternatus Feeding Highlights bHLH Transcription Factor Involved in Defense Response",
+    "authors": "Quanmin Wen; Yajie Cui; Tian Xu; Yadi Deng; Dejun Hao; Ruixu Chen",
+    "issuedDate": "2025-7-3",
+    "abstract": "Background: Pinus massoniana is a significant lipid-producing tree species in China and a susceptible host for both the pine wood nematode and its insect vector, Monochamus alternatus. The basic helix–loop–helix (bHLH) family of transcription factors play a crucial role in responding to both biotic and abiotic stresses. However, the role of bHLH in terpene-induced defense in P. massoniana remains poorly studied. Results: Transcriptome sequencing using DNA Nanoball Sequencing (DNBSEQ) and PacBio Sequel platforms was performed, revealing differences in gene expression in P. massoniana branch under the simulated feeding treatment of methyl jasmonate (MeJA) spraying. Fifteen bHLH genes were cloned and analyzed, among which eight highly upregulated PmbHLH genes showed similar temporal expression after MeJA treatment and M. alternatus adult feeding. Five highly upregulated bHLH genes with nuclear localization were highly expressed in P. massoniana after M. alternatus feeding and interacted with the promoter of the terpene synthase gene Pm TPS (−)-α-pinene, confirming their involvement in the defense response of P. massoniana against the M. alternatus adult feeding. Conclusions: Our results unveil the temporal changes and the regulation of the induced defense system in P. massoniana mediated by both MeJA signaling and M. alternatus feeding treatment. The potential application for transgenic experiments and the breeding of resistant species in the future were discussed.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Plants"
+  },
+  {
+    "doi": "10.3390/sym17071052",
+    "title": "An Enhanced YOLOv8 Model with Symmetry-Aware Feature Extraction for High-Accuracy Solar Panel Defect Detection",
+    "authors": "Xiaoxia Lin; Xinyue Xiao; Lin Sun; Xiaodong Yang; Chunwei Leng; Yan Li; Zhenyu Niu; Yingzhou Meng; Weihao Gong",
+    "issuedDate": "2025-7-3",
+    "abstract": "The growing popularity of solar panels is crucial for global decarbonization, but harsh environmental conditions can lead to defects such as cracks, fingerprints, and short circuits. Existing methods face the challenge of detecting multi-scale defects while maintaining real-time performance. This paper proposes a solar panel defect detection model, DCE-YOLO, based on YOLOv8. The model incorporates a C2f-DWR-DRB module for multi-scale feature extraction, where the parallel DRB branch models spatial symmetry through symmetric-rate dilated convolutions, improving robustness and consistency. The COT attention module strengthens long-range dependencies and fuses local and global contexts to achieve symmetric feature representation. The lightweight and efficient detection head improves detection speed and accuracy. The CIoU loss function is replaced with WIoU, and a non-monotonic dynamic focusing mechanism is used to mitigate the effect of low-quality samples. Experimental results show that compared with the YOLOv8 benchmark, DCE-YOLO achieves a 2.1% performance improvement on mAP@50 and a 4.9% performance improvement on mAP@50-95. Compared with recent methods, DCE-YOLO exhibits broader defect coverage, stronger robustness, and a better performance-efficiency balance, making it highly suitable for edge deployment. The synergistic interaction between the C2f-DWR-DRB module and COT attention enhances the detection of symmetric and multi-scale defects under real-world conditions.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Symmetry"
+  },
+  {
+    "doi": "10.7748/ncyp.37.4.6.s2",
+    "title": "Cutbacks threaten advanced practice nursing courses",
+    "authors": "Claire Read",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "RCNi",
+    "type": "journal-article",
+    "journal": "Nursing Children and Young People"
+  },
+  {
+    "doi": "10.1007/s43440-025-00747-0",
+    "title": "Behavioral tests to assess short- and long-lasting sensorimotor deficits following transient focal cerebral ischemia in rodents",
+    "authors": "Enrique García-Alfonso; Jeney Ramírez-Sánchez; Maylin Wong-Guerra; Luis Arturo Fonseca-Fonseca; Yanay Montano-Peguero; Daniela Risco-Acevedo; Yanier Núñez-Figueredo",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Pharmacological Reports"
+  },
+  {
+    "doi": "10.1007/s10311-025-01861-4",
+    "title": "The soil microbial carbon pump for carbon sequestration",
+    "authors": "Longkai Qiao; Junfei Wang; Shuangshuang Wei; Yilong Ren; Eric Lichtfouse; Jie Han",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Environmental Chemistry Letters"
+  },
+  {
+    "doi": "10.1007/s10701-025-00872-z",
+    "title": "Infeasibility of Graviton Detection as Cosmic Censorship",
+    "authors": "Andrea Palessandro",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Foundations of Physics"
+  },
+  {
+    "doi": "10.1007/s12672-025-02909-1",
+    "title": "Single-cell RNA sequencing reveals the potential role of estrogen in tuberous sclerosis complex related renal angiomyolipoma",
+    "authors": "Yi Liu; Wenda Wang; Guoyang Zheng; Weifeng Xu; Zhan Wang; Xu Wang; Jiang Liu; Dongxu Qiu; Yanan Li; Yang Zhao; Yushi Zhang",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "Discover Oncology"
+  },
+  {
+    "doi": "10.1002/app.57413",
+    "title": "Construction of Loose <scp>PVDF</scp> Composite Membrane by Solvent Induced Crosslinking of <scp>PEI</scp> Macromolecules",
+    "authors": "Weiyi Kong; Jinbo Jin; Kaizhou Zhang; Min Li; Mingmi Wu; Xiaoqin Long; Man Yang",
+    "issuedDate": "2025-7-3",
+    "abstract": "ABSTRACTThis study proposes a novel methodology for constructing functional separation membranes on polyvinylidene fluoride (PVDF) substrates through precise modulation of polyethyleneimine (PEI) macromolecular chain conformation in solvent systems with varying polarity parameters. Preparation of PVDF/styrene‐maleic anhydride copolymer (SMA) blend membranes via non‐solvent induced phase separation (NIPS). Surface functionalization is achieved through covalent crosslinking between PEI and anhydride groups on PVDF/SMA membranes. Systematic investigation reveals that solvent polarity (water, ethanol, glycero, and liquid paraffin) critically influences PEI chain conformations, governing both the separation layer microstructure and decolorization efficiency. The water‐induced PEI (S1) membrane exhibits a synergistic separation mechanism combining size sieving and electrostatic interaction, achieving Congo red retention rates exceeding 99% and methyl blue retention over 90%. Compared to PEI (S1) membrane, PEI (S4) membrane treated with liquid paraffin shows a 60% decrease in permeation flux. In addition, the PEI (S1) membrane maintains 98.5% separation efficiency in continuous dye purification tests. This study contributes novel theoretical perspectives to macromolecular conformation engineering and establishes PVDF composite membranes with excellent permeability.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "Journal of Applied Polymer Science"
+  },
+  {
+    "doi": "10.1113/ep091561",
+    "title": "An eye on long‐duration spaceflight: Controversies, countermeasures and challenges",
+    "authors": "Vincent Wing Sum Ng; Susan Patricia Mollan",
+    "issuedDate": "2025-7-3",
+    "abstract": "AbstractSpace flight‐associated neuroocular syndrome (SANS) is a consequence of long‐duration space flight and is detected in two‐thirds of astronauts. In‐flight, this can cause a change in the refraction of the eyes, requiring graded hypermetropic ‘superfocus adjustable’ glasses, optic nerve head oedema and choroidal folds. While the optic disc oedema resolves on returning to gravitational force, the choroidal folds and axial length shortening remain. Controversy remains over the role of intracranial pressure in the development of these changes. A recent case report has re‐energised the debate as to whether nutraceuticals and an individual's genetic expression of the 1‐carbon metabolic pathway are a major component for the development of this condition. The strict 6° head down tilt bed rest platform remains the cornerstone for evaluating analogous pathological changes and trialling potential targeted therapies. The translational application of a glucagon‐like peptide 1 receptor agonist for the treatment of raised intracranial pressure in idiopathic intracranial hypertension may be of significance as a potential countermeasure for SANS. The aim of this narrative review is to explore the controversies in the integration of the presumed pathophysiological factors and to debate suitable countermeasures.",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "journal": "Experimental Physiology"
+  },
+  {
+    "doi": "10.3390/reports8030104",
+    "title": "Characterization of Pseudomonas kurunegalensis by Whole-Genome Sequencing from a Clinical Sample: New Challenges in Identification",
+    "authors": "David Badenas-Alzugaray; Laura Valour; Alexander Tristancho-Baró; Rossi Núñez-Medina; Ana María Milagro-Beamonte; Carmen Torres-Manrique; Beatriz Gilaberte-Angós; Ana Isabel López-Calleja; Antonio Rezusta-López",
+    "issuedDate": "2025-7-3",
+    "abstract": "Backgoround: The genus Pseudomonas encompasses metabolically versatile bacteria widely distributed in diverse environments, including clinical settings. Among these, Pseudomonas kurunegalensis is a recently described environmental species with limited clinical characterization. Objective and Methods: In this study, we report the genomic and phenotypic characterization of a P. kurunegalensis isolate, Pam1317368, recovered from a catheterized urine sample of a post-renal transplant patient without symptoms of urinary tract infection. Initial identification by MALDI-TOF MS misclassified the isolate as Pseudomonas monteilii. Whole-genome sequencing and average nucleotide identity (ANI) analysis (≥95%) confirmed its identity as P. kurunegalensis. The methodology included genomic DNA extraction, Illumina sequencing, genome assembly, ANI calculation, antimicrobial susceptibility testing, resistance gene identification and phylogenetic analysis. Results: Antimicrobial susceptibility testing revealed multidrug resistance, including carbapenem resistance mediated by the metallo-β-lactamase gene VIM-2. Additional resistance determinants included genes conferring resistance to fluoroquinolones and aminoglycosides. Phylogenetic analysis placed the isolate within the P. kurunegalensis clade, closely related to environmental strains. Conclusions: Although the clinical significance of this finding remains unclear, the presence of clinically relevant resistance genes in an environmental Pseudomonas species isolated from a human sample highlights the value of genomic surveillance and accurate species-level identification in clinical microbiology.",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "journal": "Reports"
+  },
+  {
     "doi": "10.1007/s10489-025-06709-6",
     "title": "Multi-query network learning for hoi detection via vision-language models",
     "authors": "Leideng Shi; Juan Zhang",
@@ -268,6 +1108,36 @@
     "publisher": "Springer Science and Business Media LLC",
     "type": "journal-article",
     "journal": "Applied Intelligence"
+  },
+  {
+    "doi": "10.1007/s11548-025-03352-x",
+    "title": "Enhancing YOLO for laparoscopic tool detection: novel data augmentation and structural modifications addressing mis-detection of bifurcated targets",
+    "authors": "Yuzhang Liu; Yuichiro Hayashi; Masahiro Oda; Kensaku Mori",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "journal": "International Journal of Computer Assisted Radiology and Surgery"
+  },
+  {
+    "doi": "10.71146/kjmr517",
+    "title": "MACHINE LEARNING TECHNIQUES FOR REAL-TIME MALWARE DETECTION AND PREVENTION",
+    "authors": "Muhammad Ali Saeed; Muhammad Abdur Raphay Zia; Naeem Aslam; Muhammad Fuzail; Muhammad Tanveer Meeran",
+    "issuedDate": "2025-7-3",
+    "abstract": "Viruses are dangerous and can weaken security besides costing a lot of money to any computer system in use today. The traditional techniques of malware detection including signature-based detection suffer from problems such as manual update, reactive approach toward threats, and scalability. This paper aims at analyzing the potential of applying machine learning in the detection of malware. Machine learning helps to detect new unknown types of malware because the program uses the data obtained and adapts to new threats. Based on three metrics features, this paper analyses the characteristics of Random Forest, Gradient Boosting, Support Vector Machine algorithms in malware detection. The results presented herein show that these models can enhance the detection rate, and offer Malware detection solutions that are both sustainable and flexible. This piece of research helps to enhance the methods for designing proper and effective cybersecurity.",
+    "publisher": "Kashf Institute of Development & Studies",
+    "type": "journal-article",
+    "journal": "Kashf Journal of Multidisciplinary Research"
+  },
+  {
+    "doi": "10.37047/jos.galenos.2025.2025-3-13",
+    "title": "Long-term Follow-up Results of Our Patients Diagnosed with Ductal Carcinoma In Situ: Usefulness of the Van Nuys Prognostic Index",
+    "authors": "Özlem Nuray SEVER; Tuğba BAŞOĞLU; Şermin KÖKTEN; Hatice ODABAŞ",
+    "issuedDate": "2025-7-3",
+    "abstract": "N/A",
+    "publisher": "Galenos Yayinevi",
+    "type": "journal-article",
+    "journal": "Journal of Oncological Sciences"
   },
   {
     "doi": "10.1007/s11145-025-10674-4",
