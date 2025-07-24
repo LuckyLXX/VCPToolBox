@@ -8,7 +8,9 @@ node_modules
 # Docker files
 Dockerfile
 docker-compose.yml
+docker-compose.prod.yml
 .dockerignore
+.env.production
 
 # Configuration files (to be mounted as volumes)
 config.env
@@ -41,3 +43,17 @@ logs/
 # Test files if not needed in production
 example.test.js
 VCPChrome/
+
+# Deployment files
+deploy.sh
+PRODUCTION.md
+backup/
+
+# Development files
+README*.md
+*.md
+!PRODUCTION.md
+
+# Backup files
+*.backup
+*.tmp

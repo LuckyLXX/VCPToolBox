@@ -23,19 +23,27 @@ services:
       - vcptoolbox_vcp_logs:/usr/src/app/Plugin/VCPLog/log
       - vcptoolbox_timed_contacts:/usr/src/app/VCPTimedContacts
       
-      # 插件配置文件（只读）
+      # 插件配置文件（只读，如果存在）
       - ./Plugin/DoubaoGen/config.env:/usr/src/app/Plugin/DoubaoGen/config.env:ro
       - ./Plugin/FluxGen/config.env:/usr/src/app/Plugin/FluxGen/config.env:ro
       - ./Plugin/VCPLog/config.env:/usr/src/app/Plugin/VCPLog/config.env:ro
       - ./Plugin/AgentAssistant/config.env:/usr/src/app/Plugin/AgentAssistant/config.env:ro
       - ./Plugin/WeatherReporter/config.env:/usr/src/app/Plugin/WeatherReporter/config.env:ro
       - ./Plugin/TavilySearch/config.env:/usr/src/app/Plugin/TavilySearch/config.env:ro
+      - ./Plugin/FileDownloader/config.env:/usr/src/app/Plugin/FileDownloader/config.env:ro
       
-      # VCPTavern预设（如果存在）
+      # VCPTavern预设目录（如果存在）
       - ./Plugin/VCPTavern/presets:/usr/src/app/Plugin/VCPTavern/presets
+      
+      # Agent配置目录（只读）
+      - ./Agent:/usr/src/app/Agent:ro
+      
+      # 工具配置目录（只读）
+      - ./TVStxt:/usr/src/app/TVStxt:ro
     
     restart: unless-stopped
     
+    # 健康检查
     healthcheck:
       test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:6005/"] 
       interval: 30s
@@ -43,6 +51,7 @@ services:
       retries: 3
       start_period: 40s
     
+    # 日志配置
     logging:
       driver: "json-file"
       options:
@@ -72,6 +81,7 @@ volumes:
   vcptoolbox_timed_contacts:
     driver: local
 
+# 网络配置
 networks:
   default:
     name: vcptoolbox-network
