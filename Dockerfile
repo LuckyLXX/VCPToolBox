@@ -69,6 +69,10 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 # 从构建阶段复制整个应用目录
 COPY --from=build /usr/src/app .
 
+# 复制启动脚本并设置权限
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 
 # --- 安全性说明：关于以 root 用户运行 ---
 #
@@ -98,4 +102,4 @@ COPY --from=build /usr/src/app .
 EXPOSE 6005
 
 # 定义容器启动命令
-CMD [ "node_modules/.bin/pm2-runtime", "start", "server.js" ]
+ENTRYPOINT ["docker-entrypoint.sh"]
