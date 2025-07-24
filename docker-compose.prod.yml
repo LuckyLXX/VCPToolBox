@@ -11,21 +11,12 @@ services:
       - TZ=Asia/Shanghai
       - NODE_ENV=production
     volumes:
-      # 配置文件（只读）
-      - ./config.env:/usr/src/app/config.env:ro
+      # 全挂载方式 - 将整个项目目录挂载到容器中
+      - .:/usr/src/app
 
-      # 数据持久化目录
-      - vcptoolbox_dailynote:/usr/src/app/dailynote
-      - vcptoolbox_images:/usr/src/app/image
-      - vcptoolbox_logs:/usr/src/app/DebugLog
-      - vcptoolbox_vcp_logs:/usr/src/app/Plugin/VCPLog/log
-      - vcptoolbox_timed_contacts:/usr/src/app/VCPTimedContacts
-
-      # Agent配置目录（只读）
-      - ./Agent:/usr/src/app/Agent:ro
-
-      # 工具配置目录（只读）
-      - ./TVStxt:/usr/src/app/TVStxt:ro
+      # 保持 node_modules 和 pydeps 独立于容器，避免本地环境覆盖容器内的依赖
+      - /usr/src/app/node_modules
+      - /usr/src/app/pydeps
     
     restart: unless-stopped
     
@@ -54,18 +45,7 @@ services:
           memory: 512M
           cpus: '0.5'
 
-# 数据卷定义
-volumes:
-  vcptoolbox_dailynote:
-    driver: local
-  vcptoolbox_images:
-    driver: local
-  vcptoolbox_logs:
-    driver: local
-  vcptoolbox_vcp_logs:
-    driver: local
-  vcptoolbox_timed_contacts:
-    driver: local
+# 使用全挂载方式，不需要单独的数据卷定义
 
 # 网络配置
 networks:
