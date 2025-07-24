@@ -33,6 +33,21 @@ if [ ! -d "node_modules" ]; then
     exit 1
 fi
 
+# 检查关键依赖
+echo "🔍 Checking critical dependencies..."
+if [ ! -d "node_modules/ws" ]; then
+    echo "❌ Error: ws module not found in node_modules"
+    echo "📦 Available modules:"
+    ls -la node_modules/ | head -10
+    exit 1
+fi
+
+if [ ! -d "node_modules/express" ]; then
+    echo "❌ Error: express module not found in node_modules"
+    exit 1
+fi
+
+echo "✅ Critical dependencies check passed"
 echo "✅ Basic file check passed"
 
 # 检查端口环境变量
