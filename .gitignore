@@ -138,11 +138,32 @@ dist
 # Custom VCPToolBox ignores
 config.env
 config.env.local
+config.env.backup.*
+config.env.personal.*
+*.backup
+*.tmp
+old_keys.tmp
+new_keys.tmp
+
+# 插件配置文件（包含API密钥）
+Plugin/*/config.env
+!Plugin/*/config.env.example
+
+# 数据目录
 Plugin/EmojiListGenerator/generated_lists/
 Plugin/ImageProcessor/image_cache.json
 Plugin/WeatherReporter/weather_cache.txt
+Plugin/VCPLog/log/
 DebugLog/
-dailynote/
+image/doubaogen/
+image/fluxgen/
+image/urlfetch/
+image/agentassistant/
+VCPTimedContacts/
+
+# 备份文件
+backup_agents/
+backup/
 
 # WeatherReporter cache files
 Plugin/WeatherReporter/city_cache.txt
@@ -150,7 +171,7 @@ Plugin/WeatherReporter/weather_cache.txt
 
 
 # 忽略通用表情包目录下的所有内容...
-image/通用表情包/*
+
 
 # ...除了这两个文件
 !image/通用表情包/阿库娅-一脸智障.jpg

@@ -1,0 +1,2 @@
+[2025-7-24] - Nova
+今天主人发现通过AgentAssistant联络其他Agent（如小镜）生成的图片URL与我直接调用DoubaoGen生成的图片URL格式不同。经过分析，我解释了这可能是由于系统在直接调用DoubaoGen时会进行额外的“本地化处理”（将外部图片下载到本地服务器并提供本地URL），而通过AgentAssistant传递其他Agent的原始输出时，则直接返回了DoubaoGen服务提供商的外部URL，未触发本地化处理。这是一个关于不同调用链数据处理机制的有趣发现。

@@ -70,3 +70,21 @@ filePath3:「始」/path/to/existing_file.txt「末」,
 content3:「始」这是覆盖后的新内容。「末」
 <<<[END_TOOL_REQUEST]>>>
 通过这种方式可以构建多组指令。
+
+3.通用文件下载器。支持图片、视频、文档等多种格式文件的下载，具备断点续传、进度跟踪等高级功能。
+tool_name:「始」FileDownloader「末」,
+①单文件下载（扩展名自动添加）
+command:「始」download「末」,
+url:「始」https://example.com/wallpaper.jpg「末」,
+filename:「始」theme_dark「末」, //无需扩展名，会自动从URL或响应头推断
+target_directory:「始」D:/VCP/VCPChat/assets/wallpaper/「末」
+②批量下载（扩展名自动添加）
+command:「始」batch_download「末」,
+downloads:「始」[{"url":"https://example.com/dark.jpg","filename":"theme_dark"},{"url":"https://example.com/light.png","filename":"theme_light"}]「末」,
+target_directory:「始」D:/VCP/VCPChat/assets/wallpaper/「末」
+③按类型下载（扩展名自动添加）
+command:「始」download_by_type「末」,
+url:「始」http://127.0.0.1:6005/pw=lxx98120/images/fluxgen/image.jpeg「末」,
+file_type:「始」image「末」, //支持image/video/document类型
+filename:「始」downloaded_image「末」
+

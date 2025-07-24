@@ -6,10 +6,10 @@ import time
 from win10toast import ToastNotifier # 导入win10toast库
 
 # --- 配置信息 (请根据您的VCP工具箱设置进行修改) ---
-VCP_KEY = '123456' # 请与您NAS上VCP工具箱的VCP_Key保持一致
-WS_SERVER_URL = 'ws://192.168.2.179:5890' # 您NAS上VCP工具箱的WebSocket地址
+VCP_KEY = 'lxx98120' # 请与您config.env中的VCP_Key保持一致
+WS_SERVER_URL = 'ws://127.0.0.1:5890' # 您的VCP工具箱的WebSocket地址
 WS_URL = f"{WS_SERVER_URL}/VCPlog/VCP_Key={VCP_KEY}" # 完整的WebSocket连接URL
-APP_ID = "Ryan.VCP.Toolbox.Notifier" # Windows通知的应用程序ID，建议设置为您的应用名，以便在通知中心识别
+APP_ID = "VCP.Toolbox.Notifier" # Windows通知的应用程序ID，建议设置为您的应用名，以便在通知中心识别
 
 # 初始化ToastNotifier对象，用于发送通知
 notifier = ToastNotifier()

@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  vcptoolbox:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: vcptoolbox-prod
+    ports:
+      - "6005:6005"    # VCP主服务端口
+      - "5890:5890"    # WebSocket端口
+    environment:
+      - TZ=Asia/Shanghai
+      - NODE_ENV=production
+    volumes:
+      # 配置文件（只读）
+      - ./config.env:/usr/src/app/config.env:ro
+      
+      # 数据持久化目录
+      - vcptoolbox_dailynote:/usr/src/app/dailynote
+      - vcptoolbox_images:/usr/src/app/image
+      - vcptoolbox_logs:/usr/src/app/DebugLog
+      - vcptoolbox_vcp_logs:/usr/src/app/Plugin/VCPLog/log
+      - vcptoolbox_timed_contacts:/usr/src/app/VCPTimedContacts
+      
+      # 插件配置文件（只读）
+      - ./Plugin/DoubaoGen/config.env:/usr/src/app/Plugin/DoubaoGen/config.env:ro
+      - ./Plugin/FluxGen/config.env:/usr/src/app/Plugin/FluxGen/config.env:ro
+      - ./Plugin/VCPLog/config.env:/usr/src/app/Plugin/VCPLog/config.env:ro
+      - ./Plugin/AgentAssistant/config.env:/usr/src/app/Plugin/AgentAssistant/config.env:ro
+      - ./Plugin/WeatherReporter/config.env:/usr/src/app/Plugin/WeatherReporter/config.env:ro
+      - ./Plugin/TavilySearch/config.env:/usr/src/app/Plugin/TavilySearch/config.env:ro
+      
+      # VCPTavern预设（如果存在）
+      - ./Plugin/VCPTavern/presets:/usr/src/app/Plugin/VCPTavern/presets
+    
+    restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:6005/"] 
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+    # 资源限制
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
+
+# 数据卷定义
+volumes:
+  vcptoolbox_dailynote:
+    driver: local
+  vcptoolbox_images:
+    driver: local
+  vcptoolbox_logs:
+    driver: local
+  vcptoolbox_vcp_logs:
+    driver: local
+  vcptoolbox_timed_contacts:
+    driver: local
+
+networks:
+  default:
+    name: vcptoolbox-network
