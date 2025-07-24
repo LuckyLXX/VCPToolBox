@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   vcptoolbox:
     build: 
@@ -15,29 +13,17 @@ services:
     volumes:
       # 配置文件（只读）
       - ./config.env:/usr/src/app/config.env:ro
-      
+
       # 数据持久化目录
       - vcptoolbox_dailynote:/usr/src/app/dailynote
       - vcptoolbox_images:/usr/src/app/image
       - vcptoolbox_logs:/usr/src/app/DebugLog
       - vcptoolbox_vcp_logs:/usr/src/app/Plugin/VCPLog/log
       - vcptoolbox_timed_contacts:/usr/src/app/VCPTimedContacts
-      
-      # 插件配置文件（只读，如果存在）
-      - ./Plugin/DoubaoGen/config.env:/usr/src/app/Plugin/DoubaoGen/config.env:ro
-      - ./Plugin/FluxGen/config.env:/usr/src/app/Plugin/FluxGen/config.env:ro
-      - ./Plugin/VCPLog/config.env:/usr/src/app/Plugin/VCPLog/config.env:ro
-      - ./Plugin/AgentAssistant/config.env:/usr/src/app/Plugin/AgentAssistant/config.env:ro
-      - ./Plugin/WeatherReporter/config.env:/usr/src/app/Plugin/WeatherReporter/config.env:ro
-      - ./Plugin/TavilySearch/config.env:/usr/src/app/Plugin/TavilySearch/config.env:ro
-      - ./Plugin/FileDownloader/config.env:/usr/src/app/Plugin/FileDownloader/config.env:ro
-      
-      # VCPTavern预设目录（如果存在）
-      - ./Plugin/VCPTavern/presets:/usr/src/app/Plugin/VCPTavern/presets
-      
+
       # Agent配置目录（只读）
       - ./Agent:/usr/src/app/Agent:ro
-      
+
       # 工具配置目录（只读）
       - ./TVStxt:/usr/src/app/TVStxt:ro
     
