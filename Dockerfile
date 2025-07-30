@@ -86,6 +86,9 @@ COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/requirements.txt ./
 
+# 让Puppeteer下载Chrome浏览器
+RUN npx puppeteer browsers install chrome
+
 # 复制启动脚本并设置权限
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh

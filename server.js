@@ -188,6 +188,10 @@ app.use(cors({ origin: '*' })); // 启用 CORS，允许所有来源的跨域请�
 app.use(express.json({ limit: '300mb' }));
 app.use(express.urlencoded({ limit: '300mb', extended: true }));
 
+// 引入并使用特殊模型路由
+const specialModelRouter = require('./routes/specialModelRouter');
+app.use(specialModelRouter); // 这个将处理所有白名单模型的请求
+
 const port = process.env.PORT;
 const apiKey = process.env.API_Key;
 const apiUrl = process.env.API_URL;
@@ -759,15 +763,6 @@ app.post('/v1/interrupt', (req, res) => {
     }
 });
 
-// Route for standard chat completions. VCP info is shown based on the .env config.
-app.post('/v1/chat/completions', (req, res) => {
-    handleChatCompletion(req, res, false);
-});
-
-// Route to force VCP info to be shown, regardless of the .env config.
-app.post('/v1/chatvcp/completions', (req, res) => {
-    handleChatCompletion(req, res, true);
-});
 
 async function handleChatCompletion(req, res, forceShowVCP = false) {
     const { default: fetch } = await import('node-fetch');
@@ -1515,6 +1510,17 @@ async function handleChatCompletion(req, res, forceShowVCP = false) {
     }
 }
 
+// Route for standard chat completions. VCP info is shown based on the .env config.
+app.post('/v1/chat/completions', (req, res) => {
+    handleChatCompletion(req, res, false);
+});
+
+// Route to force VCP info to be shown, regardless of the .env config.
+app.post('/v1/chatvcp/completions', (req, res) => {
+    handleChatCompletion(req, res, true);
+});
+
+
 async function handleDiaryFromAIResponse(responseText) {
     let fullAiResponseTextForDiary = '';
     let successfullyParsedForDiary = false;
@@ -1736,10 +1742,6 @@ async function initialize() {
     // EmojiListGenerator (static plugin) is automatically executed as part of the initializeStaticPlugins call above.
     // Its script (`emoji-list-generator.js`) will run and generate/update the .txt files
     // in its `generated_lists` directory. No need to call it separately here.
-
-    // 在所有主要路由注册完成后，添加特殊模型路由作为后备处理器
-    const specialModelRouter = require('./routes/specialModelRouter');
-    app.use(specialModelRouter); // 这个将处理所有白名单模型的请求
 
     if (DEBUG_MODE) console.log('开始从插件目录加载表情包列表到缓存 (由EmojiListGenerator插件生成)...');
     const emojiListSourceDir = path.join(__dirname, 'Plugin', 'EmojiListGenerator', 'generated_lists');

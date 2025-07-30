@@ -69,6 +69,23 @@ async function fetchWithPuppeteer(url, mode = 'text', proxyPort = null) {
         // 在Docker环境中使用系统安装的Chromium
         if (process.env.PUPPETEER_EXECUTABLE_PATH) {
             launchOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
+        } else {
+            // 尝试常见的Chromium路径
+            const fs = require('fs');
+            const possiblePaths = [
+                '/usr/bin/chromium',
+                '/usr/bin/chromium-browser',
+                '/usr/bin/google-chrome',
+                '/usr/bin/google-chrome-stable'
+            ];
+
+            for (const chromePath of possiblePaths) {
+                if (fs.existsSync(chromePath)) {
+                    launchOptions.executablePath = chromePath;
+                    console.log(`[UrlFetch] Using Chrome at: ${chromePath}`);
+                    break;
+                }
+            }
         }
 
         if (proxyPort) {
