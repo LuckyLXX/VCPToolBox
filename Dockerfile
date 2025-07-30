@@ -49,7 +49,7 @@ FROM node:20-alpine
 # 设置工作目录
 WORKDIR /usr/src/app
 
-# 仅安装运行时的系统依赖
+# 仅安装运行时的系统依赖，包括Chromium用于Puppeteer
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
     apk add --no-cache \
     tzdata \
@@ -57,10 +57,21 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     openblas \
     jpeg-dev \
     zlib-dev \
-    freetype-dev
+    freetype-dev \
+    chromium \
+    nss \
+    freetype \
+    freetype-dev \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
+
+# 设置 Puppeteer 环境变量，告诉它使用系统安装的 Chromium
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
 
 # 设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \

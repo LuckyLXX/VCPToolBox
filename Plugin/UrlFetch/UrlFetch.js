@@ -55,8 +55,21 @@ async function fetchWithPuppeteer(url, mode = 'text', proxyPort = null) {
     try {
         const launchOptions = {
             headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-accelerated-2d-canvas',
+                '--no-first-run',
+                '--no-zygote',
+                '--disable-gpu'
+            ]
         };
+
+        // 在Docker环境中使用系统安装的Chromium
+        if (process.env.PUPPETEER_EXECUTABLE_PATH) {
+            launchOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
+        }
 
         if (proxyPort) {
             launchOptions.args.push(`--proxy-server=http://127.0.0.1:${proxyPort}`);
