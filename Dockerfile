@@ -51,6 +51,7 @@ WORKDIR /usr/src/app
 
 # 仅安装运行时的系统依赖，包括Chromium用于Puppeteer
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
+    apk update && \
     apk add --no-cache \
     tzdata \
     python3 \
@@ -60,11 +61,10 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     freetype-dev \
     chromium \
     nss \
-    freetype \
-    freetype-dev \
     harfbuzz \
     ca-certificates \
-    ttf-freefont
+    ttf-freefont && \
+    chromium --version
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
