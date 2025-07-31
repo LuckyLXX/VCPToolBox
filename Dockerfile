@@ -64,17 +64,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     ca-certificates \
     ttf-freefont
 
-# 单独安装Chromium，确保安装成功
-RUN apk add --no-cache chromium || (echo "Failed to install chromium" && exit 1)
-RUN chromium --version || (echo "Chromium installation verification failed" && exit 1)
-RUN echo "Chromium installed successfully: $(chromium --version)"
-
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
-
-# 设置 Puppeteer 环境变量，告诉它使用系统安装的 Chromium
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
 # 设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
@@ -88,10 +79,6 @@ COPY --from=build /usr/src/app/*.js ./
 COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/requirements.txt ./
-COPY start.sh ./start.sh
-
-# 设置启动脚本权限
-RUN chmod +x start.sh
 
 # 复制启动脚本并设置权限
 COPY docker-entrypoint.sh /usr/local/bin/
@@ -124,4 +111,4 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 EXPOSE 6005
 
 # 定义容器启动命令
-ENTRYPOINT ["./start.sh"]
+ENTRYPOINT ["docker-entrypoint.sh"]
