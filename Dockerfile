@@ -62,10 +62,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     nss \
     harfbuzz \
     ca-certificates \
-    ttf-freefont
-
-# 单独安装Chromium并验证
-RUN apk add --no-cache chromium && \
+    ttf-freefont \
+    chromium && \
     chromium --version && \
     echo "Chromium installed successfully"
 
@@ -89,12 +87,12 @@ COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/requirements.txt ./
 
-# 让Puppeteer下载Chrome浏览器
-RUN echo "Starting Puppeteer Chrome download..." && \
-    npx puppeteer browsers install chrome && \
-    echo "Puppeteer Chrome download completed" && \
-    npx puppeteer browsers list && \
-    ls -la /root/.cache/puppeteer/ || echo "Puppeteer cache directory not found"
+# 验证Chromium安装和Puppeteer配置
+RUN echo "Verifying Chromium installation..." && \
+    which chromium && \
+    chromium --version && \
+    echo "PUPPETEER_EXECUTABLE_PATH=$PUPPETEER_EXECUTABLE_PATH" && \
+    echo "Chromium setup completed successfully"
 
 # 复制启动脚本并设置权限
 COPY docker-entrypoint.sh /usr/local/bin/
