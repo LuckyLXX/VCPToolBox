@@ -49,7 +49,7 @@ FROM node:20-alpine
 # 设置工作目录
 WORKDIR /usr/src/app
 
-# 仅安装运行时的系统依赖，包括Chromium用于Puppeteer
+# 仅安装运行时的系统依赖
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
     apk update && \
     apk add --no-cache \
@@ -62,10 +62,12 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     nss \
     harfbuzz \
     ca-certificates \
-    ttf-freefont \
-    chromium && \
-    chromium --version && \
-    echo "Chromium installed successfully"
+    ttf-freefont
+
+# 单独安装Chromium，确保安装成功
+RUN apk add --no-cache chromium || (echo "Failed to install chromium" && exit 1)
+RUN chromium --version || (echo "Chromium installation verification failed" && exit 1)
+RUN echo "Chromium installed successfully: $(chromium --version)"
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
@@ -86,13 +88,10 @@ COPY --from=build /usr/src/app/*.js ./
 COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/requirements.txt ./
+COPY start.sh ./start.sh
 
-# 验证Chromium安装和Puppeteer配置
-RUN echo "Verifying Chromium installation..." && \
-    which chromium && \
-    chromium --version && \
-    echo "PUPPETEER_EXECUTABLE_PATH=$PUPPETEER_EXECUTABLE_PATH" && \
-    echo "Chromium setup completed successfully"
+# 设置启动脚本权限
+RUN chmod +x start.sh
 
 # 复制启动脚本并设置权限
 COPY docker-entrypoint.sh /usr/local/bin/
@@ -125,4 +124,4 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 EXPOSE 6005
 
 # 定义容器启动命令
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["./start.sh"]
