@@ -10,6 +10,16 @@ services:
     environment:
       - TZ=Asia/Shanghai
       - NODE_ENV=production
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+    command: >
+      sh -c "
+        echo '=== Installing Chromium for Puppeteer ===' &&
+        apk add --no-cache chromium &&
+        echo 'Chromium version:' && chromium --version &&
+        echo 'Starting VCPToolBox...' &&
+        node server.js
+      "
     volumes:
       # 全挂载方式 - 将整个项目目录挂载到容器中
       - .:/usr/src/app
