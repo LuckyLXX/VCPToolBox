@@ -15,10 +15,24 @@ services:
     volumes:
       # 全挂载方式 - 将整个项目目录挂载到容器中
       - .:/usr/src/app
-
+      
       # 保持 node_modules 和 pydeps 独立于容器，避免本地环境覆盖容器内的依赖
       - /usr/src/app/node_modules
       - /usr/src/app/pydeps
+      
+      # 持久化Chrome安装，避免重复安装
+      - chrome-cache:/usr/lib/chromium
+      - apk-cache:/var/cache/apk
+    
+    entrypoint: >
+      sh -c "
+        if ! command -v chromium >/dev/null 2>&1; then
+          echo 'Installing Chromium (first time only)...' &&
+          apk add --no-cache chromium
+        fi &&
+        echo 'Chromium version:' && chromium --version &&
+        node server.js
+      "
     
     restart: unless-stopped
     
@@ -47,7 +61,9 @@ services:
           memory: 512M
           cpus: '0.5'
 
-# 使用全挂载方式，不需要单独的数据卷定义
+volumes:
+  chrome-cache:
+  apk-cache:
 
 # 网络配置
 networks:

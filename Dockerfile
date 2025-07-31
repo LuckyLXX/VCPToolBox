@@ -49,7 +49,7 @@ FROM node:20-alpine
 # 设置工作目录
 WORKDIR /usr/src/app
 
-# 仅安装运行时的系统依赖
+# 仅安装运行时的系统依赖，包括Chromium
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
     apk update && \
     apk add --no-cache \
@@ -62,7 +62,9 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     nss \
     harfbuzz \
     ca-certificates \
-    ttf-freefont
+    ttf-freefont \
+    chromium && \
+    echo "Chromium version: $(chromium --version)"
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
