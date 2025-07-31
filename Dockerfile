@@ -59,12 +59,15 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     jpeg-dev \
     zlib-dev \
     freetype-dev \
-    chromium \
     nss \
     harfbuzz \
     ca-certificates \
-    ttf-freefont && \
-    chromium --version
+    ttf-freefont
+
+# 单独安装Chromium并验证
+RUN apk add --no-cache chromium && \
+    chromium --version && \
+    echo "Chromium installed successfully"
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
@@ -87,7 +90,11 @@ COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/requirements.txt ./
 
 # 让Puppeteer下载Chrome浏览器
-RUN npx puppeteer browsers install chrome
+RUN echo "Starting Puppeteer Chrome download..." && \
+    npx puppeteer browsers install chrome && \
+    echo "Puppeteer Chrome download completed" && \
+    npx puppeteer browsers list && \
+    ls -la /root/.cache/puppeteer/ || echo "Puppeteer cache directory not found"
 
 # 复制启动脚本并设置权限
 COPY docker-entrypoint.sh /usr/local/bin/
