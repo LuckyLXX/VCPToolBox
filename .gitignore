@@ -152,7 +152,9 @@ new_keys.tmp
 # 数据目录
 Plugin/EmojiListGenerator/generated_lists/
 Plugin/ImageProcessor/image_cache.json
+Plugin/ImageProcessor/multimodal_cache.json
 Plugin/WeatherReporter/weather_cache.txt
+Plugin/WeatherReporter/weather_cache.json
 Plugin/VCPLog/log/
 DebugLog/
 image/doubaogen/
