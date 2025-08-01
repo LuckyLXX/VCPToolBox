@@ -146,7 +146,6 @@ old_keys.tmp
 new_keys.tmp
 
 # 插件配置文件（包含API密钥）
-Plugin/*/config.env
 !Plugin/*/config.env.example
 
 # 数据目录
