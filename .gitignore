@@ -147,6 +147,7 @@ new_keys.tmp
 
 # 插件配置文件（包含API密钥）
 !Plugin/*/config.env.example
+!Plugin/AgentAssistant/config.env
 
 # 数据目录
 Plugin/EmojiListGenerator/generated_lists/
