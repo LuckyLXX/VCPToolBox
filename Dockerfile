@@ -11,17 +11,25 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
 # 安装所有运行时和编译时依赖
 RUN apk add --no-cache \
-    tzdata \
-    python3 \
-    py3-pip \
-    build-base \
-    gfortran \
-    musl-dev \
-    lapack-dev \
-    openblas-dev \
-    jpeg-dev \
-    zlib-dev \
-    freetype-dev
+  tzdata \
+  python3 \
+  py3-pip \
+  build-base \
+  gfortran \
+  musl-dev \
+  lapack-dev \
+  openblas-dev \
+  jpeg-dev \
+  zlib-dev \
+  freetype-dev \
+  python3-dev \
+  linux-headers \
+  libffi-dev \
+  openssl-dev
+
+# 在 npm install 之前设置环境变量，跳过 puppeteer 的 chromium 下载
+ARG PUPPETEER_SKIP_DOWNLOAD=true
+ENV PUPPETEER_SKIP_DOWNLOAD=${PUPPETEER_SKIP_DOWNLOAD}
 
 # 复制 Node.js 依赖定义文件并安装依赖 (包含 pm2)
 COPY package*.json ./
@@ -32,7 +40,7 @@ COPY package*.json ./
 # --registry=https://mirrors.huaweicloud.com/repository/npm/ (华为云)
 # 国际通用 (如果服务器在海外):
 # (默认，无需指定)
-RUN npm install --registry=https://registry.npmmirror.com
+RUN npm cache clean --force && npm install --registry=https://registry.npmmirror.com
 
 # 复制 Python 依赖定义文件并安装
 COPY requirements.txt ./
@@ -49,29 +57,30 @@ FROM node:20-alpine
 # 设置工作目录
 WORKDIR /usr/src/app
 
-# 仅安装运行时的系统依赖，包括Chromium
+# 仅安装运行时的系统依赖
+# 添加 chromium 及其所需依赖，以供 UrlFetch (Puppeteer) 工具使用
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
-    apk update && \
-    apk add --no-cache \
-    tzdata \
-    python3 \
-    openblas \
-    jpeg-dev \
-    zlib-dev \
-    freetype-dev \
-    nss \
-    harfbuzz \
-    ca-certificates \
-    ttf-freefont \
-    chromium && \
-    echo "Chromium version: $(chromium --version)"
+  apk add --no-cache \
+  chromium \
+  nss \
+  freetype \
+  harfbuzz \
+  ttf-freefont \
+  tzdata \
+  python3 \
+  openblas \
+  jpeg-dev \
+  zlib-dev \
+  freetype-dev \
+  libffi
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
 # 设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
-    echo "Asia/Shanghai" > /etc/timezone
+  echo "Asia/Shanghai" > /etc/timezone
 
 # 从构建阶段复制应用代码和 node_modules
 COPY --from=build /usr/src/app/node_modules ./node_modules
@@ -80,11 +89,21 @@ COPY --from=build /usr/src/app/pydeps ./pydeps
 COPY --from=build /usr/src/app/*.js ./
 COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
+COPY --from=build /usr/src/app/routes ./routes
 COPY --from=build /usr/src/app/requirements.txt ./
 
-# 复制启动脚本并设置权限
-COPY docker-entrypoint.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+# 创建所有应用可能需要写入的持久化目录，以增强镜像的健壮性
+# 这样即使用户的宿主机目录不完整，容器也能正常启动。
+# 卷挂载会覆盖这些空目录。
+RUN mkdir -p /usr/src/app/VCPTimedContacts \
+             /usr/src/app/dailynote \
+             /usr/src/app/image \
+             /usr/src/app/file \
+             /usr/src/app/TVStxt \
+             /usr/src/app/VCPAsyncResults \
+             /usr/src/app/Plugin/VCPLog/log \
+             /usr/src/app/Plugin/EmojiListGenerator/generated_lists
+
 
 # --- 安全性说明：关于以 root 用户运行 ---
 #
@@ -109,8 +128,9 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 # RUN chown -R appuser:appuser /usr/src/app
 # USER appuser
 
+
 # 暴露端口
 EXPOSE 6005
 
 # 定义容器启动命令
-ENTRYPOINT ["docker-entrypoint.sh"]
+CMD [ "node_modules/.bin/pm2-runtime", "start", "server.js" ]
