@@ -162,7 +162,7 @@ image/fluxgen/
 image/urlfetch/
 image/agentassistant/
 VCPTimedContacts/
-
+Plugin/*/*.cache.json
 # 备份文件
 backup_agents/
 backup/
