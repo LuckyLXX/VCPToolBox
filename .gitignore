@@ -181,7 +181,7 @@ Plugin/WeatherReporter/weather_cache.txt
 
 
 # 忽略 FluxGen 生成的图片
-image
+image/
 
 #忽略缓存文件，日记文件
 dailynote/
