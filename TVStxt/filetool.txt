@@ -65,14 +65,19 @@ command:「始」DownloadFileToDirectory「末」,
 url:「始」http://49.235.138.100:6005/pw=lxx98120/images/通用表情包/阿库娅-一脸智障.jpg「末」,
 targetDirectory:「始」D:\VCP\Downloads\images「末」,
 filename:「始」阿库娅-一脸智障.jpg「末」
-2.16 下载到指定目录（自动解析文件名）
-command:「始」DownloadFileToDirectory「末」,
-url:「始」http://49.235.138.100:6005/pw=lxx98120/images/通用表情包/阿库娅-一脸智障.jpg「末」,
-targetDirectory:「始」D:\VCP\Downloads\images「末」
+2.16.阅读网络文件
+command:「始」WebReadFile「末」,
+url:「始」https://example.com/sample.jpg「末」
+2.17.创建Canvas协同编辑器，这是一个非常强大的指令，它将创建一个即时的IDE/文档编译窗口，允许你和用户共同编辑内部内容。该窗口拥有强大的渲染器和编译器，非常适合向用户展示代码或者大型文案，并且邀请用户一同编辑它。
+command:「始」CreateCanvas「末」,
+fileName:「始」new_canvas.js「末」,
+content:「始」console.log('Hello, Canvas!');「末」
+
 
 3. 文件列表生成器 (FileListGenerator)
 tool_name:「始」FileListGenerator「末」,
 command:「始」generate「末」
+
 
 
 构建批量指令——FileOperator支持批量指令例如：
