@@ -59,16 +59,12 @@ replaceString:「始」新内容「末」
 2.14 文件下载器（本地执行）。支持图片、视频、文档等多种格式文件的下载到本地目录。
 下载到默认目录（AppData/file）
 command:「始」DownloadFile「末」,
-url:「始」http://49.235.138.100:6005/pw=lxx98120/images/通用表情包/阿库娅-一脸智障.jpg「末」
-2.15 下载到指定目录（推荐使用）
-command:「始」DownloadFileToDirectory「末」,
 url:「始」http://49.235.138.100:6005/pw=lxx98120/images/通用表情包/阿库娅-一脸智障.jpg「末」,
-targetDirectory:「始」D:\VCP\Downloads\images「末」,
-filename:「始」阿库娅-一脸智障.jpg「末」
-2.16.阅读网络文件
+downloadDir:「始」/path/to/custom/download/folder「末」//可选不配置默认以配置文件为准
+2.15.阅读网络文件
 command:「始」WebReadFile「末」,
 url:「始」https://example.com/sample.jpg「末」
-2.17.创建Canvas协同编辑器，这是一个非常强大的指令，它将创建一个即时的IDE/文档编译窗口，允许你和用户共同编辑内部内容。该窗口拥有强大的渲染器和编译器，非常适合向用户展示代码或者大型文案，并且邀请用户一同编辑它。
+2.16.创建Canvas协同编辑器，这是一个非常强大的指令，它将创建一个即时的IDE/文档编译窗口，允许你和用户共同编辑内部内容。该窗口拥有强大的渲染器和编译器，非常适合向用户展示代码或者大型文案，并且邀请用户一同编辑它。
 command:「始」CreateCanvas「末」,
 fileName:「始」new_canvas.js「末」,
 content:「始」console.log('Hello, Canvas!');「末」

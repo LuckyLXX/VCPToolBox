@@ -185,3 +185,6 @@ image/
 
 #忽略缓存文件，日记文件
 dailynote/
+
+
+.filetool.txt
