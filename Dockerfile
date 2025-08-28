@@ -101,6 +101,7 @@ WORKDIR /usr/src/app
 
 # 仅安装运行时的系统依赖
 # 添加 chromium 及其所需依赖，以供 UrlFetch (Puppeteer) 工具使用
+# 添加 build-base 和 python3-dev 以支持原生模块如 hnswlib-node
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
   apk add --no-cache \
   chromium \
@@ -110,11 +111,18 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
   ttf-freefont \
   tzdata \
   python3 \
+  py3-pip \
+  build-base \
+  python3-dev \
   openblas \
+  openblas-dev \
+  lapack-dev \
   jpeg-dev \
   zlib-dev \
   freetype-dev \
-  libffi
+  libffi \
+  libffi-dev \
+  musl-dev
 
 # 设置 PYTHONPATH 环境变量，让 Python 能找到我们安装的依赖
 ENV PYTHONPATH=/usr/src/app/pydeps
