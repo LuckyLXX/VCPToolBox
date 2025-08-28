@@ -132,8 +132,7 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
   echo "Asia/Shanghai" > /etc/timezone
 
-# 从构建阶段复制应用代码和 node_modules
-COPY --from=build /usr/src/app/node_modules ./node_modules
+# 从构建阶段复制应用代码和依赖
 COPY --from=build /usr/src/app/package*.json ./
 COPY --from=build /usr/src/app/pydeps ./pydeps
 COPY --from=build /usr/src/app/*.js ./
@@ -141,6 +140,9 @@ COPY --from=build /usr/src/app/Plugin ./Plugin
 COPY --from=build /usr/src/app/Agent ./Agent
 COPY --from=build /usr/src/app/routes ./routes
 COPY --from=build /usr/src/app/requirements.txt ./
+
+# 重新安装 node_modules 以确保原生模块在当前环境中正确编译
+RUN npm cache clean --force && npm install --registry=https://registry.npmmirror.com --production
 
 # 创建所有应用可能需要写入的持久化目录，以增强镜像的健壮性
 # 这样即使用户的宿主机目录不完整，容器也能正常启动。
