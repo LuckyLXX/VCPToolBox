@@ -186,5 +186,6 @@ image/
 #忽略缓存文件，日记文件
 dailynote/
 
+Agent/
 
 .filetool.txt
