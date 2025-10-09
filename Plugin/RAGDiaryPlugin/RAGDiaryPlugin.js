@@ -555,8 +555,20 @@ class RAGDiaryPlugin {
             return messages;
         }
 
-        // 2. 准备共享资源 (只计算一次)
-        const lastUserMessageIndex = messages.findLastIndex(m => m.role === 'user');
+        // 2. 准备共享资源 (V3.3: 精准上下文提取)
+        // 始终寻找最后一个用户消息和最后一个AI消息，以避免注入污染。
+        // V3.4: 跳过特殊的 "系统邀请指令" user 消息
+        const lastUserMessageIndex = messages.findLastIndex(m => {
+            if (m.role !== 'user') {
+                return false;
+            }
+            const content = typeof m.content === 'string'
+                ? m.content
+                : (Array.isArray(m.content) ? m.content.find(p => p.type === 'text')?.text : '') || '';
+            return !content.startsWith('[系统邀请指令:]') && !content.startsWith('[系统提示:]');
+        });
+        const lastAiMessageIndex = messages.findLastIndex(m => m.role === 'assistant');
+
         let userContent = '';
         let aiContent = null;
 
@@ -565,18 +577,13 @@ class RAGDiaryPlugin {
             userContent = typeof lastUserMessage.content === 'string'
                 ? lastUserMessage.content
                 : (Array.isArray(lastUserMessage.content) ? lastUserMessage.content.find(p => p.type === 'text')?.text : '') || '';
+        }
 
-            for (let i = lastUserMessageIndex - 1; i >= 0; i--) {
-                if (messages[i].role === 'assistant') {
-                    const msg = messages[i];
-                    if (typeof msg.content === 'string') {
-                        aiContent = msg.content;
-                    } else if (Array.isArray(msg.content)) {
-                        aiContent = msg.content.find(p => p.type === 'text')?.text || null;
-                    }
-                    break;
-                }
-            }
+        if (lastAiMessageIndex > -1) {
+            const lastAiMessage = messages[lastAiMessageIndex];
+            aiContent = typeof lastAiMessage.content === 'string'
+                ? lastAiMessage.content
+                : (Array.isArray(lastAiMessage.content) ? lastAiMessage.content.find(p => p.type === 'text')?.text : '') || '';
         }
 
         // V3.1: 在向量化之前，清理userContent和aiContent中的HTML标签
