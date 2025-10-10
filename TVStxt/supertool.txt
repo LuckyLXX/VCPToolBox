@@ -31,7 +31,12 @@ tool_name:「始」GeminiImageGen「末」,
 command:「始」generate「末」,
 prompt:「始」(必需) 请生成图片，用于图片生成的详细英文提示词。「末」,
 
-4.SunoGen 大名鼎鼎的Suno音乐生成器。
+5.NovelAIGen 动漫风格图片生成器，专门用于生成高质量的动漫风格图片。
+tool_name:「始」NovelAIGen「末」,
+prompt:「始」(必需) 用于图片生成的详细【英文】提示词。「末」,
+resolution:「始」(必需) 图片分辨率，可选值：「512x768」、「768x512」、「640x640」、「832x1216」、「1216x832」、「1024x1024」、「1024x1536」、「1536x1024」、「1472x1472」、「1088x1920」、「1920x1088」。「末」
+
+6.SunoGen 大名鼎鼎的Suno音乐生成器。
 tool_name:「始」SunoGen「末」,
 command:「始」generate_song「末」,
 歌词模式
@@ -41,8 +46,6 @@ title:「始」Sunny Days「末」,
 或者直接生成纯音乐
 gpt_description_prompt:「始」一首关于星空和梦想的安静钢琴曲「末」,
 
-4.视频生成器，基于强大的Wan2.1系列模型。
-图生视频。
 7. 视频生成器 (Wan2.1VideoGen)
 基于强大的Wan2.1系列模型。视频生成耗时很长，请先提交任务，再用返回的ID查询结果。
 *提交任务:*
@@ -58,6 +61,81 @@ image_url:「始」http://example.com/cat.jpg「末」
 tool_name:「始」Wan2.1VideoGen「末」,
 command:「始」query「末」,
 request_id:「始」(必需) submit命令返回的任务ID。「末」
+
+8.多媒体截取工具 (MediaShot)
+一个强大的多媒体处理插件，支持视频片段截取、音频片段截取、图像区域截取和编辑等功能。
+// 视频帧截图
+tool_name:「始」MediaShot「末」,
+command:「始」CaptureFrame「末」,
+videoPath:「始」(必需) 视频文件的完整路径「末」,
+timestampMs:「始」(必需) 截图的时间点（毫秒）「末」,
+outputPath:「始」(可选) 输出文件路径「末」,
+quality:「始」(可选) 图片质量 (1-100)「末」,
+format:「始」(可选) 输出格式 (jpg, png)「末」
+
+// 视频片段截取
+tool_name:「始」MediaShot「末」,
+command:「始」ExtractVideoClip「末」,
+videoPath:「始」(必需) 视频文件的完整路径「末」,
+startMs:「始」(必需) 开始时间（毫秒）「末」,
+endMs:「始」(必需) 结束时间（毫秒）「末」,
+outputPath:「始」(可选) 输出文件路径「末」,
+quality:「始」(可选) 输出质量 (low, medium, high)「末」
+
+// 音频片段截取
+tool_name:「始」MediaShot「末」,
+command:「始」ExtractAudioClip「末」,
+audioPath:「始」(必需) 音频或视频文件的完整路径「末」,
+startMs:「始」(必需) 开始时间（毫秒）「末」,
+endMs:「始」(必需) 结束时间（毫秒）「末」,
+outputPath:「始」(可选) 输出文件路径「末」,
+format:「始」(可选) 输出格式 (mp3, wav, aac)「末」
+
+// 图片区域截取
+tool_name:「始」MediaShot「末」,
+command:「始」CropImage「末」,
+imagePath:「始」(必需) 图片文件的完整路径「末」,
+x:「始」(必需) 左上角X坐标比例 (0.0-1.0)「末」,
+y:「始」(必需) 左上角Y坐标比例 (0.0-1.0)「末」,
+width:「始」(必需) 宽度比例 (0.0-1.0)「末」,
+height:「始」(必需) 高度比例 (0.0-1.0)「末」,
+outputPath:「始」(可选) 输出文件路径「末」
+
+// 图片编辑（绘制框、圆、箭头或添加文字注释）
+tool_name:「始」MediaShot「末」,
+command:「始」EditImage「末」,
+imagePath:「始」(必需) 图片文件的完整路径「末」,
+editType:「始」(必需) 编辑类型 (rectangle/circle/text/arrow/resolution_reduction/grayscale/crop_region)「末」,
+x:「始」(特定类型必需) 区域X坐标比例 (0.0-1.0)「末」,
+y:「始」(特定类型必需) 区域Y坐标比例 (0.0-1.0)「末」,
+width:「始」(rectangle/crop_region时必需) 宽度比例 (0.0-1.0)「末」,
+height:「始」(rectangle/crop_region时必需) 高度比例 (0.0-1.0)「末」,
+text:「始」(text时必需) 要添加的文字「末」,
+color:「始」(可选) 颜色名称或16进制值「末」,
+fontSize:「始」(可选) 字体大小比例 (0.0-1.0)「末」,
+strokeWidth:「始」(可选) 线条宽度比例 (0.0-1.0)「末」,
+textPosition:「始」(可选) 文字位置「末」,
+arrowEndX:「始」(arrow时必需) 箭头终点X坐标比例「末」,
+arrowEndY:「始」(arrow时必需) 箭头终点Y坐标比例「末」
+
+// 批量编辑图片
+tool_name:「始」MediaShot「末」,
+command:「始」BatchEditImage「末」,
+imagePath:「始」(必需) 图片文件的完整路径「末」,
+edits:「始」(必需) 编辑操作列表的JSON字符串「末」,
+outputPath:「始」(可选) 输出文件路径「末」
+
+// 组合功能：先从视频截图，然后立即对截图进行编辑
+tool_name:「始」MediaShot「末」,
+command:「始」CombinedCapture「末」,
+videoPath:「始」(必需) 视频文件的完整路径「末」,
+timestampMs:「始」(必需) 截图的时间点（毫秒）「末」,
+editType:「始」(必需) 编辑类型「末」,
+x:「始」(特定类型必需) 编辑区域X坐标比例 (0.0-1.0)「末」,
+y:「始」(特定类型必需) 编辑区域Y坐标比例 (0.0-1.0)「末」,
+text:「始」(text时必需) 要添加的文字「末」,
+color:「始」(可选) 颜色名称或16进制值「末」,
+fontSize:「始」(可选) 字体大小比例 (0.0-1.0)「末」
 
 二.工具类
 1.计算器工具
@@ -90,7 +168,24 @@ mode:「始」(可选) 模式，'text' (默认) 或 'snapshot' (网页快照)。
 tool_name:「始」BilibiliFetch「末」,
 url:「始」(必需) Bilibili 视频或直播的 URL。「末」
 
-5.命运与神秘插件-塔罗占卜—
+5.谷歌搜索工具
+tool_name:「始」GoogleSearch「末」,
+query:「始」(必需) 需要在谷歌上搜索的关键词。「末」
+
+6.Serp API 多搜索引擎
+tool_name:「始」SerpSearch「末」,
+command:「始」bing_search「末」, // 可选: duckduckgo_search, google_scholar_search
+q:「始」(必需) 需要搜索的关键词。「末」,
+cc:「始」(可选) 指定搜索的国家代码 (例如: US, CN)。「末」
+// 对于duckduckgo_search，使用kl参数指定区域和语言
+// 对于google_scholar_search，支持as_ylo(起始年份), as_yhi(结束年份)等参数
+
+7.闪电深度研究插件，能够围绕一个主题进行多维度、跨领域的关键词扩展，并综合搜索结果生成研究报告。
+tool_name:「始」FlashDeepSearch「末」,
+SearchContent:「始」(必需) 需要进行深度研究的自然语言主题描述。「末」,
+SearchBroadness:「始」(必需, 范围5-20) 定义的广度，即需要生成的探索性关键词数量。「末」
+
+8.命运与神秘插件-塔罗占卜—
 tool_name: 「始」TarotDivination「末」,
 fate_check_number: 「始」number「末」, // 可选字段，作为占卜师的你，为对方的徘徊抉择一个命运之数！
 单抽指令：command: 「始」draw_single_card「末」
@@ -115,9 +210,39 @@ keyword：「始」搜索关键词「末」, //多个关键词可以用英文逗
 window_size：「始」匹配深度「末」 //非必须参数，可不填。可选5-20，默认10，数字越大返回的上下文结构化越多。
 
 
-四. 其他工具
+四.系统工具类
 
-3. 随机事件生成器 (Randomness)
+1.PowerShell命令执行器，允许执行PowerShell命令并返回输出。
+tool_name:「始」PowerShellExecutor「末」,
+command:「始」(必需) 要执行的PowerShell命令内容。「末」,
+executionType:「始」(必需) 执行类型，'blocking'(阻塞式)或'background'(后台式)。「末」
+// blocking用于短期运行并立即返回结果
+// background用于长期运行的服务类任务，会打开一个可见的PowerShell窗口
+
+2.MCPO工具桥接器，能够自动发现、缓存和调用MCP工具。
+tool_name:「始」MCPO「末」,
+action:「始」list_tools「末」 // 列出所有可用的MCP工具
+// 或者调用特定工具:
+action:「始」call_tool「末」,
+tool_name_param:「始」工具名称「末」,
+arguments:「始」{"参数名": "参数值"}「末」
+// 其他操作: get_tool_info(获取工具信息), manage_server(管理服务器), discover_tools(重新发现工具)
+
+3.待办事项管理器，功能完整的待办事项管理插件。
+tool_name:「始」TodoManager「末」,
+command:「始」AddTodo「末」, // 添加待办事项
+title:「始」(必需) 待办事项标题「末」,
+description:「始」(可选) 详细描述「末」,
+priority:「始」(可选) 优先级 (high/medium/low)「末」,
+dueDate:「始」(可选) 截止日期，格式为YYYY-MM-DD「末」,
+tags:「始」(可选) 标签，多个标签用逗号分隔「末」
+// 其他命令: ListTodos(查看待办), CompleteTodo(完成待办), DeleteTodo(删除待办),
+// EditTodo(编辑待办), SearchTodos(搜索待办), GetStats(获取统计信息)
+
+
+五. 其他工具
+
+1. 随机事件生成器 (Randomness)
 一个多功能的随机事件生成器，提供有状态和无状态两种模式，用于掷骰、抽牌、生成随机日期等。
 
 // --- 无状态指令 (一次性操作) ---
