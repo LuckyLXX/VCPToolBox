@@ -63,6 +63,14 @@ html[data-theme='dark'] {
     --cpu-color: var(--cpu-color-dark);
     --memory-color: var(--memory-color-dark);
     color-scheme: dark;
+
+    /* Variables for EasyMDE editor compatibility */
+    --primary-color: var(--highlight-text-dark);
+    --primary-color-translucent: rgba(138, 180, 248, 0.3); /* From #8ab4f8 */
+    --background-color: var(--secondary-bg-dark);
+    --background-color-light: var(--tertiary-bg-dark);
+    --text-color-primary: var(--primary-text-dark);
+    --text-color-secondary: var(--secondary-text-dark);
 }
 
 html[data-theme='light'] {
@@ -85,6 +93,14 @@ html[data-theme='light'] {
     --cpu-color: var(--cpu-color-light);
     --memory-color: var(--memory-color-light);
     color-scheme: light;
+
+    /* Variables for EasyMDE editor compatibility */
+    --primary-color: var(--highlight-text-light);
+    --primary-color-translucent: rgba(26, 115, 232, 0.3); /* From #1a73e8 */
+    --background-color: var(--secondary-bg-light);
+    --background-color-light: var(--tertiary-bg-light);
+    --text-color-primary: var(--primary-text-light);
+    --text-color-secondary: var(--secondary-text-light);
 }
 
 body {
@@ -1012,4 +1028,107 @@ html[data-theme='light'] .delete-agent-map-btn {
         grid-template-columns: 1fr;
         height: auto;
     }
+}
+
+/* --- Thinking Chains Editor Styles --- */
+.thinking-chains-editor-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 1200px) {
+    .thinking-chains-editor-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+.theme-details {
+    background-color: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.theme-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: var(--tertiary-bg);
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.theme-summary:hover {
+    background-color: var(--accent-bg);
+}
+
+.theme-name-display {
+    color: var(--highlight-text);
+}
+
+.delete-theme-btn {
+    background-color: var(--danger-color);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+html[data-theme='light'] .delete-theme-btn {
+    color: white;
+}
+.delete-theme-btn:hover {
+    background-color: var(--danger-hover-bg);
+}
+
+.theme-content {
+    padding: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.available-clusters-container {
+    background-color: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 25px;
+    height: fit-content;
+}
+
+.available-clusters-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.chain-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Inherits from .draggable-list li */
+}
+
+.remove-cluster-btn {
+    background: var(--danger-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    line-height: 1;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.remove-cluster-btn:hover {
+    background: var(--danger-hover-bg);
 }
