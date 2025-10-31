@@ -44,19 +44,6 @@ function sendCallback(requestId, status, result) {
     req.end();
 }
 
-// 解密验证码
-function decryptCode(encryptedCode) {
-    const secretKey = '314159'; // 必须与 auth.js 中的密钥相同
-    let realCode = '';
-    for (let i = 0; i < encryptedCode.length; i++) {
-        const encryptedDigit = parseInt(encryptedCode[i], 10);
-        const keyDigit = parseInt(secretKey[i], 10);
-        // 解密逻辑：(加密数字 - 密钥数字 + 10) % 10
-        const realDigit = (encryptedDigit - keyDigit + 10) % 10;
-        realCode += realDigit;
-    }
-    return realCode;
-}
 
 async function executePowerShellCommand(command, executionType = 'blocking', timeout = 60000) {
     return new Promise((resolve, reject) => {
@@ -139,33 +126,56 @@ async function main() {
     process.stdin.on('end', async () => {
         try {
             const args = JSON.parse(input);
-            const command = args.command;
-            const executionType = args.executionType;
+            // 支持 command, command1, command2... 串行执行
+            const commands = [];
+            if (args.command) {
+                commands.push(args.command);
+            }
+            let i = 1;
+            while (args[`command${i}`]) {
+                commands.push(args[`command${i}`]);
+                i++;
+            }
+            let command;
+            const isMultiCommand = commands.length > 1;
+            if (isMultiCommand) {
+                const psCommandObjects = commands.map(cmd => {
+                    const escapedCmdForPs = cmd.replace(/'/g, "''");
+                    // 为最终输出的JSON字符串转义命令本身
+                    const escapedCmdForJson = cmd.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+                    return `$output = (Invoke-Expression -Command '${escapedCmdForPs}') *>&1 | Out-String; $results.Add([PSCustomObject]@{command='${escapedCmdForJson}'; output=$output.Trim()}) | Out-Null;`;
+                }).join('\n');
+                // 将所有命令包装在一个脚本中，该脚本收集每个命令的输出并最终输出为JSON
+                command = `$results = New-Object System.Collections.ArrayList; ${psCommandObjects} $results | ConvertTo-Json -Compress -Depth 5;`;
+            } else {
+                command = commands.join('; ');
+            }
+            let executionType = args.executionType;
             const requireAdmin = args.requireAdmin;
+            let notice;
 
-            if (!executionType || (executionType !== 'blocking' && executionType !== 'background')) {
-                throw new Error('缺少或无效的参数: executionType。必须是 "blocking" 或 "background"。');
+            if (!executionType) {
+                executionType = 'blocking'; // 如果未提供，则默认为 blocking
+            } else if (executionType !== 'blocking' && executionType !== 'background') {
+                throw new Error('无效的参数: executionType。必须是 "blocking" 或 "background"。');
             }
 
             if (!command) {
-                throw new Error('缺少必需参数: command');
+                throw new Error('缺少必需参数: 必须提供 "command" 或 "command1", "command2", ... 等参数。');
             }
 
             // 管理员模式验证
             if (requireAdmin) {
                 if (executionType !== 'background') {
-                    throw new Error('管理员模式仅支持 "background" 执行类型。');
+                    notice = '管理员模式请求被强制切换为 "background" 执行类型。';
+                    executionType = 'background';
                 }
 
-                const authCodePath = path.join(__dirname, '..', 'UserAuth', 'auth_code.txt');
-                let encryptedCode;
-                try {
-                    encryptedCode = (await fs.readFile(authCodePath, 'utf-8')).trim();
-                } catch (e) {
-                    throw new Error('读取验证码文件失败。请确保UserAuth插件已生成验证码。');
-                }
+                const realCode = process.env.DECRYPTED_AUTH_CODE;
 
-                const realCode = decryptCode(encryptedCode);
+                if (!realCode) {
+                    throw new Error('无法获取管理员验证码。请确保主服务器配置正确。');
+                }
 
                 if (String(requireAdmin) !== realCode) {
                     throw new Error('管理员验证码错误。');
@@ -224,12 +234,34 @@ async function main() {
                 });
 
                 // 只有在轮询结束后，才进行最终的输出
-                console.log(JSON.stringify({ status: 'success', result: output }));
+                let resultOutput = output;
+                if (isMultiCommand) {
+                    try {
+                        // 如果是多命令模式，输出应该是JSON字符串，我们将其解析为对象
+                        resultOutput = JSON.parse(output);
+                    } catch (e) {
+                        console.error(`多命令JSON解析错误: ${e.message}。返回原始输出。`);
+                    }
+                }
+                const finalResult = { status: 'success', result: resultOutput };
+                if (notice) {
+                    finalResult.notice = notice;
+                }
+                console.log(JSON.stringify(finalResult));
 
             } else {
                 // blocking 模式保持不变
                 const output = await executePowerShellCommand(command, executionType);
-                console.log(JSON.stringify({ status: 'success', result: output }));
+                let resultOutput = output;
+                if (isMultiCommand) {
+                    try {
+                        // 如果是多命令模式，输出应该是JSON字符串，我们将其解析为对象
+                        resultOutput = JSON.parse(output);
+                    } catch (e) {
+                        console.error(`多命令JSON解析错误: ${e.message}。返回原始输出。`);
+                    }
+                }
+                console.log(JSON.stringify({ status: 'success', result: resultOutput }));
             }
         } catch (error) {
             console.error(JSON.stringify({ status: 'error', error: error.message }));
